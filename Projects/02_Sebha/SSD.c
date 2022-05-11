@@ -82,7 +82,7 @@ void SSD_SetState(tSSD ssd,tSSD_State ssdState)
 }
 void SSD_SetSymbol(tSSD ssd,tSSD_Symbol ssdSymbol)
 {
-SSD_IN_SYSTEM[ssd].DssdSymbol = ssdSymbol ;
+ SSD_IN_SYSTEM[ssd].DssdSymbol = ssdSymbol ;
 }
 static void TurnAllOff(void)
 {

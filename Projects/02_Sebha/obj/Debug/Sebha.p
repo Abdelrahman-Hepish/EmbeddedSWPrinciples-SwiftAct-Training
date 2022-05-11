@@ -15,6 +15,32 @@ _main	;Function start
 ; 2 exit points
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2086:genCall *{*
+;; ***	genCall  2088
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1801:saveRegisters *{*
+;; ***	saveRegisters  1803
+;; 	2135 left AOP_LIT
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
+	.line	10; "Sebha.c"	COUNTER_Init(9980) ;
+	MOVLW	0xfc
+;; 	2135 left AOP_LIT
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
+;; ***	popRegFromIdx,1042  , rIdx=0x7f
+	MOVWF	STK00
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
+	MOVLW	0x26
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2173:genCall
+	PAGESEL	_COUNTER_Init
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2175:genCall
+	CALL	_COUNTER_Init
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2181:genCall
+	PAGESEL	$
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1845:unsaveRegisters *{*
+;; ***	unsaveRegisters  1847
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2086:genCall *{*
@@ -24,8 +50,8 @@ _main	;Function start
 ;; 	2135 left AOP_LIT
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-	.line	11; "Sebha.c"	SSD_Init(SSD_L,SSD_ON,SSD_4) ;
-	MOVLW	0x04
+	.line	11; "Sebha.c"	SSD_Init(SSD_L,SSD_ON,SSD_0) ;
+	MOVLW	0x00
 ;; 	2135 left AOP_LIT
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
 ;; ***	popRegFromIdx,1042  , rIdx=0x7e
@@ -59,8 +85,8 @@ _main	;Function start
 ;; 	2135 left AOP_LIT
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-	.line	12; "Sebha.c"	SSD_Init(SSD_M,SSD_ON,SSD_3) ;
-	MOVLW	0x03
+	.line	12; "Sebha.c"	SSD_Init(SSD_M,SSD_ON,SSD_0) ;
+	MOVLW	0x00
 ;; 	2135 left AOP_LIT
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
 ;; ***	popRegFromIdx,1042  , rIdx=0x7e
@@ -94,8 +120,8 @@ _main	;Function start
 ;; 	2135 left AOP_LIT
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-	.line	13; "Sebha.c"	SSD_Init(SSD_N,SSD_ON,SSD_2) ;
-	MOVLW	0x02
+	.line	13; "Sebha.c"	SSD_Init(SSD_N,SSD_ON,SSD_0) ;
+	MOVLW	0x00
 ;; 	2135 left AOP_LIT
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
 ;; ***	popRegFromIdx,1042  , rIdx=0x7e
@@ -129,8 +155,8 @@ _main	;Function start
 ;; 	2135 left AOP_LIT
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-	.line	14; "Sebha.c"	SSD_Init(SSD_R,SSD_ON,SSD_1) ;
-	MOVLW	0x01
+	.line	14; "Sebha.c"	SSD_Init(SSD_R,SSD_ON,SSD_0) ;
+	MOVLW	0x00
 ;; 	2135 left AOP_LIT
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
 ;; ***	popRegFromIdx,1042  , rIdx=0x7e
@@ -163,6 +189,20 @@ _main	;Function start
 ;; ***	saveRegisters  1803
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2173:genCall
 _00106_DS_
+	.line	18; "Sebha.c"	COUNTER_Update() ;
+	PAGESEL	_COUNTER_Update
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2175:genCall
+	CALL	_COUNTER_Update
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2181:genCall
+	PAGESEL	$
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1845:unsaveRegisters *{*
+;; ***	unsaveRegisters  1847
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2086:genCall *{*
+;; ***	genCall  2088
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1801:saveRegisters *{*
+;; ***	saveRegisters  1803
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2173:genCall
 	.line	19; "Sebha.c"	SSD_Update() ;
 	PAGESEL	_SSD_Update
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2175:genCall

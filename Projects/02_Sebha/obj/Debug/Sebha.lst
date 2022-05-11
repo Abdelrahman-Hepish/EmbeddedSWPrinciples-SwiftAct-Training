@@ -1,4 +1,4 @@
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  06:52:10         PAGE  1
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  20:13:40         PAGE  1
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -7,7 +7,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00001 ;--------------------------------------------------------
                       00002 ; File Created by SDCC : free open source ANSI-C Compiler
                       00003 ; Version 3.5.0 #9253 (Jun 20 2015) (MINGW32)
-                      00004 ; This file was generated Wed May 11 06:52:10 2022
+                      00004 ; This file was generated Wed May 11 20:13:40 2022
                       00005 ;--------------------------------------------------------
                       00006 ; PIC port for the 14-bit core
                       00007 ;--------------------------------------------------------
@@ -57,7 +57,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
   0000                00041         extern  _T2CONbits
   0000                00042         extern  _SSPCONbits
   0000                00043         extern  _CCP1CONbits
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  06:52:10         PAGE  2
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  20:13:40         PAGE  2
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -116,7 +116,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
   0000                00094         extern  _CCPR2H
   0000                00095         extern  _CCP2CON
   0000                00096         extern  _ADRESH
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  06:52:10         PAGE  3
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  20:13:40         PAGE  3
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -175,7 +175,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0070                  00147 PSAVE   res 1
 0071                  00148 SSAVE   res 1
 0072                  00149 WSAVE   res 1
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  06:52:10         PAGE  4
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  20:13:40         PAGE  4
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -229,230 +229,280 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00195 ; 2 exit points
                       00196 ;has an exit
                       00197 ;functions called:
-                      00198 ;   _SSD_Init
+                      00198 ;   _COUNTER_Init
                       00199 ;   _SSD_Init
                       00200 ;   _SSD_Init
                       00201 ;   _SSD_Init
-                      00202 ;   _SSD_Update
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  06:52:10         PAGE  5
+                      00202 ;   _SSD_Init
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  20:13:40         PAGE  5
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
   VALUE
 
-                      00203 ;   _SSD_Init
-                      00204 ;   _SSD_Init
-                      00205 ;   _SSD_Init
+                      00203 ;   _COUNTER_Update
+                      00204 ;   _SSD_Update
+                      00205 ;   _COUNTER_Init
                       00206 ;   _SSD_Init
-                      00207 ;   _SSD_Update
-                      00208 ;2 compiler assigned registers:
-                      00209 ;   STK01
-                      00210 ;   STK00
-                      00211 ;; Starting pCode block
-                      00212 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00213 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
-                      00214 ;; ***  genLabel  2763
-                      00215 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00216 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2340:genFunction *{*
-                      00217 ;; ***  genFunction  2342 curr label offset=0previous max_key=0 
-0000                  00218 _main   ;Function start
-                      00219 ; 2 exit points
-                      00220 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00221 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00222 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00223 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00224 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2086:genCall *{*
-                      00225 ;; ***  genCall  2088
-                      00226 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1801:saveRegisters *{*
-                      00227 ;; ***  saveRegisters  1803
-                      00228 ;;      2135 left AOP_LIT
-                      00229 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
-                      00230 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-                      00231         .line   11; "Sebha.c"   SSD_Init(SSD_L,SSD_ON,SSD_4) ;
-0000   3004           00232         MOVLW   0x04
-                      00233 ;;      2135 left AOP_LIT
-                      00234 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
-                      00235 ;; ***  popRegFromIdx,1042  , rIdx=0x7e
-0001   00??           00236         MOVWF   STK01
-                      00237 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
-                      00238 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-0002   3001           00239         MOVLW   0x01
-                      00240 ;;      2135 left AOP_LIT
-                      00241 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
-                      00242 ;; ***  popRegFromIdx,1042  , rIdx=0x7f
-0003   00??           00243         MOVWF   STK00
-                      00244 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
-                      00245 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-0004   3000           00246         MOVLW   0x00
-                      00247 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2173:genCall
-0005   ???? ????      00248         PAGESEL _SSD_Init
-                      00249 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2175:genCall
-0007   2???           00250         CALL    _SSD_Init
-                      00251 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2181:genCall
-0008   ???? ????      00252         PAGESEL $
-                      00253 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1845:unsaveRegisters *{*
-                      00254 ;; ***  unsaveRegisters  1847
-                      00255 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  06:52:10         PAGE  6
+                      00207 ;   _SSD_Init
+                      00208 ;   _SSD_Init
+                      00209 ;   _SSD_Init
+                      00210 ;   _COUNTER_Update
+                      00211 ;   _SSD_Update
+                      00212 ;2 compiler assigned registers:
+                      00213 ;   STK00
+                      00214 ;   STK01
+                      00215 ;; Starting pCode block
+                      00216 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00217 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
+                      00218 ;; ***  genLabel  2763
+                      00219 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00220 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2340:genFunction *{*
+                      00221 ;; ***  genFunction  2342 curr label offset=0previous max_key=0 
+0000                  00222 _main   ;Function start
+                      00223 ; 2 exit points
+                      00224 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00225 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00226 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2086:genCall *{*
+                      00227 ;; ***  genCall  2088
+                      00228 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1801:saveRegisters *{*
+                      00229 ;; ***  saveRegisters  1803
+                      00230 ;;      2135 left AOP_LIT
+                      00231 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+                      00232 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
+                      00233         .line   10; "Sebha.c"   COUNTER_Init(9980) ;
+0000   30FC           00234         MOVLW   0xfc
+                      00235 ;;      2135 left AOP_LIT
+                      00236 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
+                      00237 ;; ***  popRegFromIdx,1042  , rIdx=0x7f
+0001   00??           00238         MOVWF   STK00
+                      00239 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+                      00240 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
+0002   3026           00241         MOVLW   0x26
+                      00242 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2173:genCall
+0003   ???? ????      00243         PAGESEL _COUNTER_Init
+                      00244 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2175:genCall
+0005   2???           00245         CALL    _COUNTER_Init
+                      00246 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2181:genCall
+0006   ???? ????      00247         PAGESEL $
+                      00248 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1845:unsaveRegisters *{*
+                      00249 ;; ***  unsaveRegisters  1847
+                      00250 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00251 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00252 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00253 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00254 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2086:genCall *{*
+                      00255 ;; ***  genCall  2088
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  20:13:40         PAGE  6
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
   VALUE
 
-                      00256 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00257 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00258 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00259 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2086:genCall *{*
-                      00260 ;; ***  genCall  2088
-                      00261 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1801:saveRegisters *{*
-                      00262 ;; ***  saveRegisters  1803
+                      00256 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1801:saveRegisters *{*
+                      00257 ;; ***  saveRegisters  1803
+                      00258 ;;      2135 left AOP_LIT
+                      00259 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+                      00260 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
+                      00261         .line   11; "Sebha.c"   SSD_Init(SSD_L,SSD_ON,SSD_0) ;
+0008   3000           00262         MOVLW   0x00
                       00263 ;;      2135 left AOP_LIT
-                      00264 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
-                      00265 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-                      00266         .line   12; "Sebha.c"   SSD_Init(SSD_M,SSD_ON,SSD_3) ;
-000A   3003           00267         MOVLW   0x03
-                      00268 ;;      2135 left AOP_LIT
-                      00269 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
-                      00270 ;; ***  popRegFromIdx,1042  , rIdx=0x7e
-000B   00??           00271         MOVWF   STK01
-                      00272 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
-                      00273 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-000C   3001           00274         MOVLW   0x01
-                      00275 ;;      2135 left AOP_LIT
-                      00276 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
-                      00277 ;; ***  popRegFromIdx,1042  , rIdx=0x7f
-000D   00??           00278         MOVWF   STK00
-                      00279 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
-                      00280 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-000E   3001           00281         MOVLW   0x01
-                      00282 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2173:genCall
-000F   ???? ????      00283         PAGESEL _SSD_Init
-                      00284 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2175:genCall
-0011   2???           00285         CALL    _SSD_Init
-                      00286 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2181:genCall
-0012   ???? ????      00287         PAGESEL $
-                      00288 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1845:unsaveRegisters *{*
-                      00289 ;; ***  unsaveRegisters  1847
-                      00290 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00291 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00292 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00293 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00294 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2086:genCall *{*
-                      00295 ;; ***  genCall  2088
-                      00296 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1801:saveRegisters *{*
-                      00297 ;; ***  saveRegisters  1803
+                      00264 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
+                      00265 ;; ***  popRegFromIdx,1042  , rIdx=0x7e
+0009   00??           00266         MOVWF   STK01
+                      00267 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+                      00268 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
+000A   3001           00269         MOVLW   0x01
+                      00270 ;;      2135 left AOP_LIT
+                      00271 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
+                      00272 ;; ***  popRegFromIdx,1042  , rIdx=0x7f
+000B   00??           00273         MOVWF   STK00
+                      00274 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+                      00275 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
+000C   3000           00276         MOVLW   0x00
+                      00277 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2173:genCall
+000D   ???? ????      00278         PAGESEL _SSD_Init
+                      00279 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2175:genCall
+000F   2???           00280         CALL    _SSD_Init
+                      00281 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2181:genCall
+0010   ???? ????      00282         PAGESEL $
+                      00283 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1845:unsaveRegisters *{*
+                      00284 ;; ***  unsaveRegisters  1847
+                      00285 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00286 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00287 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00288 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00289 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2086:genCall *{*
+                      00290 ;; ***  genCall  2088
+                      00291 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1801:saveRegisters *{*
+                      00292 ;; ***  saveRegisters  1803
+                      00293 ;;      2135 left AOP_LIT
+                      00294 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+                      00295 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
+                      00296         .line   12; "Sebha.c"   SSD_Init(SSD_M,SSD_ON,SSD_0) ;
+0012   3000           00297         MOVLW   0x00
                       00298 ;;      2135 left AOP_LIT
-                      00299 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
-                      00300 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-                      00301         .line   13; "Sebha.c"   SSD_Init(SSD_N,SSD_ON,SSD_2) ;
-0014   3002           00302         MOVLW   0x02
-                      00303 ;;      2135 left AOP_LIT
-                      00304 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
-                      00305 ;; ***  popRegFromIdx,1042  , rIdx=0x7e
-0015   00??           00306         MOVWF   STK01
-                      00307 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
-                      00308 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  06:52:10         PAGE  7
+                      00299 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
+                      00300 ;; ***  popRegFromIdx,1042  , rIdx=0x7e
+0013   00??           00301         MOVWF   STK01
+                      00302 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+                      00303 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
+0014   3001           00304         MOVLW   0x01
+                      00305 ;;      2135 left AOP_LIT
+                      00306 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
+                      00307 ;; ***  popRegFromIdx,1042  , rIdx=0x7f
+0015   00??           00308         MOVWF   STK00
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  20:13:40         PAGE  7
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
   VALUE
 
-0016   3001           00309         MOVLW   0x01
-                      00310 ;;      2135 left AOP_LIT
-                      00311 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
-                      00312 ;; ***  popRegFromIdx,1042  , rIdx=0x7f
-0017   00??           00313         MOVWF   STK00
-                      00314 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
-                      00315 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-0018   3002           00316         MOVLW   0x02
-                      00317 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2173:genCall
-0019   ???? ????      00318         PAGESEL _SSD_Init
-                      00319 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2175:genCall
-001B   2???           00320         CALL    _SSD_Init
-                      00321 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2181:genCall
-001C   ???? ????      00322         PAGESEL $
-                      00323 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1845:unsaveRegisters *{*
-                      00324 ;; ***  unsaveRegisters  1847
-                      00325 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00326 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00327 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00328 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00329 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2086:genCall *{*
-                      00330 ;; ***  genCall  2088
-                      00331 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1801:saveRegisters *{*
-                      00332 ;; ***  saveRegisters  1803
+                      00309 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+                      00310 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
+0016   3001           00311         MOVLW   0x01
+                      00312 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2173:genCall
+0017   ???? ????      00313         PAGESEL _SSD_Init
+                      00314 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2175:genCall
+0019   2???           00315         CALL    _SSD_Init
+                      00316 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2181:genCall
+001A   ???? ????      00317         PAGESEL $
+                      00318 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1845:unsaveRegisters *{*
+                      00319 ;; ***  unsaveRegisters  1847
+                      00320 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00321 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00322 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00323 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00324 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2086:genCall *{*
+                      00325 ;; ***  genCall  2088
+                      00326 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1801:saveRegisters *{*
+                      00327 ;; ***  saveRegisters  1803
+                      00328 ;;      2135 left AOP_LIT
+                      00329 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+                      00330 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
+                      00331         .line   13; "Sebha.c"   SSD_Init(SSD_N,SSD_ON,SSD_0) ;
+001C   3000           00332         MOVLW   0x00
                       00333 ;;      2135 left AOP_LIT
-                      00334 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
-                      00335 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-                      00336         .line   14; "Sebha.c"   SSD_Init(SSD_R,SSD_ON,SSD_1) ;
-001E   3001           00337         MOVLW   0x01
-                      00338 ;;      2135 left AOP_LIT
-                      00339 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
-                      00340 ;; ***  popRegFromIdx,1042  , rIdx=0x7e
-001F   00??           00341         MOVWF   STK01
-                      00342 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
-                      00343 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-0020   3001           00344         MOVLW   0x01
-                      00345 ;;      2135 left AOP_LIT
-                      00346 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
-                      00347 ;; ***  popRegFromIdx,1042  , rIdx=0x7f
-0021   00??           00348         MOVWF   STK00
-                      00349 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
-                      00350 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-0022   3003           00351         MOVLW   0x03
-                      00352 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2173:genCall
-0023   ???? ????      00353         PAGESEL _SSD_Init
-                      00354 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2175:genCall
-0025   2???           00355         CALL    _SSD_Init
-                      00356 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2181:genCall
-0026   ???? ????      00357         PAGESEL $
-                      00358 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1845:unsaveRegisters *{*
-                      00359 ;; ***  unsaveRegisters  1847
-                      00360 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00361 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  06:52:10         PAGE  8
+                      00334 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
+                      00335 ;; ***  popRegFromIdx,1042  , rIdx=0x7e
+001D   00??           00336         MOVWF   STK01
+                      00337 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+                      00338 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
+001E   3001           00339         MOVLW   0x01
+                      00340 ;;      2135 left AOP_LIT
+                      00341 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
+                      00342 ;; ***  popRegFromIdx,1042  , rIdx=0x7f
+001F   00??           00343         MOVWF   STK00
+                      00344 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+                      00345 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
+0020   3002           00346         MOVLW   0x02
+                      00347 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2173:genCall
+0021   ???? ????      00348         PAGESEL _SSD_Init
+                      00349 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2175:genCall
+0023   2???           00350         CALL    _SSD_Init
+                      00351 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2181:genCall
+0024   ???? ????      00352         PAGESEL $
+                      00353 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1845:unsaveRegisters *{*
+                      00354 ;; ***  unsaveRegisters  1847
+                      00355 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00356 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00357 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00358 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00359 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2086:genCall *{*
+                      00360 ;; ***  genCall  2088
+                      00361 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1801:saveRegisters *{*
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  20:13:40         PAGE  8
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
   VALUE
 
-                      00362 ;; ***  genLabel  2763
-                      00363 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00364 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2086:genCall *{*
-                      00365 ;; ***  genCall  2088
-                      00366 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1801:saveRegisters *{*
-                      00367 ;; ***  saveRegisters  1803
-                      00368 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2173:genCall
-0028                  00369 _00106_DS_
-                      00370         .line   19; "Sebha.c"   SSD_Update() ;
-0028   ???? ????      00371         PAGESEL _SSD_Update
-                      00372 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2175:genCall
-002A   2???           00373         CALL    _SSD_Update
-                      00374 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2181:genCall
-002B   ???? ????      00375         PAGESEL $
-                      00376 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1845:unsaveRegisters *{*
-                      00377 ;; ***  unsaveRegisters  1847
-                      00378 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00379 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2778:genGoto *{*
-                      00380 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2780:genGoto
-                      00381 ;; ***  popGetLabel  key=2, label offset 4
-002D   2???           00382         GOTO    _00106_DS_
-                      00383 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00384 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
-                      00385 ;; ***  genLabel  2763
-                      00386 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00387 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2528:genEndFunction *{*
-                      00388 ;; ***  genEndFunction  2530
-002E   0008           00389         RETURN  
-                      00390 ; exit point of _main
-                      00391 
-                      00392 
-                      00393 ;       code size estimation:
-                      00394 ;          27+   10 =    37 instructions (   94 byte)
-                      00395 
-                      00396         end
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  06:52:10         PAGE  9
+                      00362 ;; ***  saveRegisters  1803
+                      00363 ;;      2135 left AOP_LIT
+                      00364 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+                      00365 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
+                      00366         .line   14; "Sebha.c"   SSD_Init(SSD_R,SSD_ON,SSD_0) ;
+0026   3000           00367         MOVLW   0x00
+                      00368 ;;      2135 left AOP_LIT
+                      00369 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
+                      00370 ;; ***  popRegFromIdx,1042  , rIdx=0x7e
+0027   00??           00371         MOVWF   STK01
+                      00372 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+                      00373 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
+0028   3001           00374         MOVLW   0x01
+                      00375 ;;      2135 left AOP_LIT
+                      00376 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
+                      00377 ;; ***  popRegFromIdx,1042  , rIdx=0x7f
+0029   00??           00378         MOVWF   STK00
+                      00379 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+                      00380 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
+002A   3003           00381         MOVLW   0x03
+                      00382 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2173:genCall
+002B   ???? ????      00383         PAGESEL _SSD_Init
+                      00384 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2175:genCall
+002D   2???           00385         CALL    _SSD_Init
+                      00386 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2181:genCall
+002E   ???? ????      00387         PAGESEL $
+                      00388 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1845:unsaveRegisters *{*
+                      00389 ;; ***  unsaveRegisters  1847
+                      00390 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00391 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
+                      00392 ;; ***  genLabel  2763
+                      00393 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00394 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2086:genCall *{*
+                      00395 ;; ***  genCall  2088
+                      00396 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1801:saveRegisters *{*
+                      00397 ;; ***  saveRegisters  1803
+                      00398 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2173:genCall
+0030                  00399 _00106_DS_
+                      00400         .line   18; "Sebha.c"   COUNTER_Update() ;
+0030   ???? ????      00401         PAGESEL _COUNTER_Update
+                      00402 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2175:genCall
+0032   2???           00403         CALL    _COUNTER_Update
+                      00404 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2181:genCall
+0033   ???? ????      00405         PAGESEL $
+                      00406 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1845:unsaveRegisters *{*
+                      00407 ;; ***  unsaveRegisters  1847
+                      00408 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00409 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2086:genCall *{*
+                      00410 ;; ***  genCall  2088
+                      00411 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1801:saveRegisters *{*
+                      00412 ;; ***  saveRegisters  1803
+                      00413 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2173:genCall
+                      00414         .line   19; "Sebha.c"   SSD_Update() ;
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  20:13:40         PAGE  9
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+0035   ???? ????      00415         PAGESEL _SSD_Update
+                      00416 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2175:genCall
+0037   2???           00417         CALL    _SSD_Update
+                      00418 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2181:genCall
+0038   ???? ????      00419         PAGESEL $
+                      00420 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1845:unsaveRegisters *{*
+                      00421 ;; ***  unsaveRegisters  1847
+                      00422 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00423 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2778:genGoto *{*
+                      00424 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2780:genGoto
+                      00425 ;; ***  popGetLabel  key=2, label offset 4
+003A   2???           00426         GOTO    _00106_DS_
+                      00427 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00428 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
+                      00429 ;; ***  genLabel  2763
+                      00430 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00431 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2528:genEndFunction *{*
+                      00432 ;; ***  genEndFunction  2530
+003B   0008           00433         RETURN  
+                      00434 ; exit point of _main
+                      00435 
+                      00436 
+                      00437 ;       code size estimation:
+                      00438 ;          32+   14 =    46 instructions (  120 byte)
+                      00439 
+                      00440         end
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  20:13:40         PAGE 10
 
 
 SYMBOL TABLE
@@ -511,7 +561,7 @@ CHS1                              00000004
 CHS2                              00000005
 CIS                               00000003
 CKE                               00000006
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  06:52:10         PAGE 10
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  20:13:40         PAGE 11
 
 
 SYMBOL TABLE
@@ -570,7 +620,7 @@ INTF                              00000001
 IRP                               00000007
 NOT_A                             00000005
 NOT_ADDRESS                       00000005
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  06:52:10         PAGE 11
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  20:13:40         PAGE 12
 
 
 SYMBOL TABLE
@@ -629,7 +679,7 @@ RA5                               00000005
 RB0                               00000000
 RB1                               00000001
 RB2                               00000002
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  06:52:10         PAGE 12
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  20:13:40         PAGE 13
 
 
 SYMBOL TABLE
@@ -688,7 +738,7 @@ SSAVE                             00000071
 SSPADD                            00000093
 SSPBUF                            00000013
 SSPCON                            00000014
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  06:52:10         PAGE 13
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  20:13:40         PAGE 14
 
 
 SYMBOL TABLE
@@ -747,7 +797,7 @@ TMR2IE                            00000001
 TMR2IF                            00000001
 TMR2ON                            00000002
 TOUTPS0                           00000003
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  06:52:10         PAGE 14
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  20:13:40         PAGE 15
 
 
 SYMBOL TABLE
@@ -806,7 +856,7 @@ TXREG                             00000019
 TXSTA                             00000098
 UA                                00000001
 W                                 00000000
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  06:52:10         PAGE 15
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  20:13:40         PAGE 16
 
 
 SYMBOL TABLE
@@ -818,7 +868,7 @@ WREN                              00000002
 WRERR                             00000003
 WSAVE                             00000072
 Z                                 00000002
-_00106_DS_                        00000028
+_00106_DS_                        00000030
 _ADCON0                           00000000
 _ADCON0bits                       00000000
 _ADCON1                           00000000
@@ -865,7 +915,7 @@ _EEDATA                           00000000
 _EEDATH                           00000000
 _FOSC_EXTRC                       00003FFF
 _FOSC_HS                          00003FFE
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  06:52:10         PAGE 16
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  20:13:40         PAGE 17
 
 
 SYMBOL TABLE
@@ -924,7 +974,7 @@ _SPBRG                            00000000
 _SSD_Init                         00000000
 _SSD_SetState                     00000000
 _SSD_SetSymbol                    00000000
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  06:52:10         PAGE 17
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  20:13:40         PAGE 18
 
 
 SYMBOL TABLE
@@ -982,17 +1032,19 @@ __EEPROM_START                    00002100
 __VECTOR_INT                      00000004
 __VECTOR_RESET                    00000000
 __sdcc_gsinit_startup             00000000
-_code_Sebha_0008                  00000008
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  06:52:10         PAGE 18
+_code_Sebha_0006                  00000006
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Seb   5-11-2022  20:13:40         PAGE 19
 
 
 SYMBOL TABLE
   LABEL                             VALUE 
 
-_code_Sebha_0012                  00000012
-_code_Sebha_001C                  0000001C
-_code_Sebha_0026                  00000026
-_code_Sebha_002B                  0000002B
+_code_Sebha_0010                  00000010
+_code_Sebha_001A                  0000001A
+_code_Sebha_0024                  00000024
+_code_Sebha_002E                  0000002E
+_code_Sebha_0033                  00000033
+_code_Sebha_0038                  00000038
 _main                             00000000
 
 Errors   :     0

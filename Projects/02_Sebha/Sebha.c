@@ -7,15 +7,15 @@ void main (void)
 {
     //PB_Init(PB_1,PB_RELEASED) ;
     //PB_Init(PB_2,PB_RELEASED) ;
-    //COUNTER_Init(0) ;
-    SSD_Init(SSD_L,SSD_ON,SSD_4) ;
-    SSD_Init(SSD_M,SSD_ON,SSD_3) ;
-    SSD_Init(SSD_N,SSD_ON,SSD_2) ;
-    SSD_Init(SSD_R,SSD_ON,SSD_1) ;
+    COUNTER_Init(9980) ;
+    SSD_Init(SSD_L,SSD_ON,SSD_0) ;
+    SSD_Init(SSD_M,SSD_ON,SSD_0) ;
+    SSD_Init(SSD_N,SSD_ON,SSD_0) ;
+    SSD_Init(SSD_R,SSD_ON,SSD_0) ;
     while(1)
     {
       //PB_Update() ;
-      //COUNTER_Update() ;
+      COUNTER_Update() ;
       SSD_Update() ;
     }
 }

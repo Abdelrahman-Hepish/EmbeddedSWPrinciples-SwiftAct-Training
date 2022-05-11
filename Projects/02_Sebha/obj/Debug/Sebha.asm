@@ -1,7 +1,7 @@
 ;--------------------------------------------------------
 ; File Created by SDCC : free open source ANSI-C Compiler
 ; Version 3.5.0 #9253 (Jun 20 2015) (MINGW32)
-; This file was generated Wed May 11 06:52:10 2022
+; This file was generated Wed May 11 20:13:40 2022
 ;--------------------------------------------------------
 ; PIC port for the 14-bit core
 ;--------------------------------------------------------
@@ -195,19 +195,23 @@ code_Sebha	code
 ; 2 exit points
 ;has an exit
 ;functions called:
+;   _COUNTER_Init
 ;   _SSD_Init
 ;   _SSD_Init
 ;   _SSD_Init
 ;   _SSD_Init
+;   _COUNTER_Update
 ;   _SSD_Update
+;   _COUNTER_Init
 ;   _SSD_Init
 ;   _SSD_Init
 ;   _SSD_Init
 ;   _SSD_Init
+;   _COUNTER_Update
 ;   _SSD_Update
 ;2 compiler assigned registers:
-;   STK01
 ;   STK00
+;   STK01
 ;; Starting pCode block
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
@@ -219,6 +223,32 @@ _main	;Function start
 ; 2 exit points
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2086:genCall *{*
+;; ***	genCall  2088
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1801:saveRegisters *{*
+;; ***	saveRegisters  1803
+;; 	2135 left AOP_LIT
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
+	.line	10; "Sebha.c"	COUNTER_Init(9980) ;
+	MOVLW	0xfc
+;; 	2135 left AOP_LIT
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
+;; ***	popRegFromIdx,1042  , rIdx=0x7f
+	MOVWF	STK00
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
+	MOVLW	0x26
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2173:genCall
+	PAGESEL	_COUNTER_Init
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2175:genCall
+	CALL	_COUNTER_Init
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2181:genCall
+	PAGESEL	$
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1845:unsaveRegisters *{*
+;; ***	unsaveRegisters  1847
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2086:genCall *{*
@@ -228,8 +258,8 @@ _main	;Function start
 ;; 	2135 left AOP_LIT
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-	.line	11; "Sebha.c"	SSD_Init(SSD_L,SSD_ON,SSD_4) ;
-	MOVLW	0x04
+	.line	11; "Sebha.c"	SSD_Init(SSD_L,SSD_ON,SSD_0) ;
+	MOVLW	0x00
 ;; 	2135 left AOP_LIT
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
 ;; ***	popRegFromIdx,1042  , rIdx=0x7e
@@ -263,8 +293,8 @@ _main	;Function start
 ;; 	2135 left AOP_LIT
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-	.line	12; "Sebha.c"	SSD_Init(SSD_M,SSD_ON,SSD_3) ;
-	MOVLW	0x03
+	.line	12; "Sebha.c"	SSD_Init(SSD_M,SSD_ON,SSD_0) ;
+	MOVLW	0x00
 ;; 	2135 left AOP_LIT
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
 ;; ***	popRegFromIdx,1042  , rIdx=0x7e
@@ -298,8 +328,8 @@ _main	;Function start
 ;; 	2135 left AOP_LIT
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-	.line	13; "Sebha.c"	SSD_Init(SSD_N,SSD_ON,SSD_2) ;
-	MOVLW	0x02
+	.line	13; "Sebha.c"	SSD_Init(SSD_N,SSD_ON,SSD_0) ;
+	MOVLW	0x00
 ;; 	2135 left AOP_LIT
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
 ;; ***	popRegFromIdx,1042  , rIdx=0x7e
@@ -333,8 +363,8 @@ _main	;Function start
 ;; 	2135 left AOP_LIT
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-	.line	14; "Sebha.c"	SSD_Init(SSD_R,SSD_ON,SSD_1) ;
-	MOVLW	0x01
+	.line	14; "Sebha.c"	SSD_Init(SSD_R,SSD_ON,SSD_0) ;
+	MOVLW	0x00
 ;; 	2135 left AOP_LIT
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
 ;; ***	popRegFromIdx,1042  , rIdx=0x7e
@@ -367,6 +397,20 @@ _main	;Function start
 ;; ***	saveRegisters  1803
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2173:genCall
 _00106_DS_
+	.line	18; "Sebha.c"	COUNTER_Update() ;
+	PAGESEL	_COUNTER_Update
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2175:genCall
+	CALL	_COUNTER_Update
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2181:genCall
+	PAGESEL	$
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1845:unsaveRegisters *{*
+;; ***	unsaveRegisters  1847
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2086:genCall *{*
+;; ***	genCall  2088
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1801:saveRegisters *{*
+;; ***	saveRegisters  1803
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2173:genCall
 	.line	19; "Sebha.c"	SSD_Update() ;
 	PAGESEL	_SSD_Update
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2175:genCall
@@ -391,6 +435,6 @@ _00106_DS_
 
 
 ;	code size estimation:
-;	   27+   10 =    37 instructions (   94 byte)
+;	   32+   14 =    46 instructions (  120 byte)
 
 	end
