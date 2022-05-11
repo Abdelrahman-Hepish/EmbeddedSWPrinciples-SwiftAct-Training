@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1652227163 source:e:\swift act\embeddedswprinciples-swiftact-training\projects\heartbeat\gpio.c
+	<pic16f877a.h>
+	"gpio.h"
+	"utilities.h"
+
+1652218858 source:e:\swift act\embeddedswprinciples-swiftact-training\projects\heartbeat\heartbeat.c
+	<pic16f877a.h>
+	"led.h"
+
+1652216917 e:\swift act\embeddedswprinciples-swiftact-training\projects\heartbeat\led.h
+
+1652219680 source:e:\swift act\embeddedswprinciples-swiftact-training\projects\heartbeat\led.c
+	<pic16f877a.h>
+	"led.h"
+	"utilities.h"
+
+1652227135 e:\swift act\embeddedswprinciples-swiftact-training\projects\heartbeat\utilities.h
+
+1652219558 source:e:\swift act\embeddedswprinciples-swiftact-training\projects\heartbeat\utilities.c
+	"utilities.h"
+
+1652227223 e:\swift act\embeddedswprinciples-swiftact-training\projects\heartbeat\gpio.h
+
