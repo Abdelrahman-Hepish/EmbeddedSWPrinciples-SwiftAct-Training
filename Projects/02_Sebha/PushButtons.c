@@ -108,7 +108,7 @@ void PB_Update(void)
     case PB_PRE_RELEASED :
         if(ButtonsInSystem[buttonIterator].sample[0] == PB_RELEASED_VOLTAGE && ButtonsInSystem[buttonIterator].sample[1] == PB_RELEASED_VOLTAGE )
         {
-           ButtonsInSystem[buttonIterator].currentButtonState =  PB_PRE_RELEASED ;
+           ButtonsInSystem[buttonIterator].currentButtonState =  PB_RELEASED ;
         }
     break ;
   }
