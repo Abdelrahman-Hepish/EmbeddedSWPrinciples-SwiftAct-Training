@@ -1,4 +1,4 @@
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-11-2022  20:13:41         PAGE  1
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-12-2022  03:46:47         PAGE  1
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -7,7 +7,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00001 ;--------------------------------------------------------
                       00002 ; File Created by SDCC : free open source ANSI-C Compiler
                       00003 ; Version 3.5.0 #9253 (Jun 20 2015) (MINGW32)
-                      00004 ; This file was generated Wed May 11 20:13:41 2022
+                      00004 ; This file was generated Thu May 12 03:46:47 2022
                       00005 ;--------------------------------------------------------
                       00006 ; PIC port for the 14-bit core
                       00007 ;--------------------------------------------------------
@@ -57,7 +57,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00041 ; absolute symbol definitions
                       00042 ;--------------------------------------------------------
                       00043 ;--------------------------------------------------------
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-11-2022  20:13:41         PAGE  2
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-12-2022  03:46:47         PAGE  2
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -73,263 +73,286 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0004                  00051 r0x1004 res     1
 0005                  00052 r0x1005 res     1
 0006                  00053 r0x1006 res     1
-                      00054 ;--------------------------------------------------------
-                      00055 ; initialized data
-                      00056 ;--------------------------------------------------------
+0007                  00054 r0x1007 res     1
+                      00055 ;--------------------------------------------------------
+                      00056 ; initialized data
                       00057 ;--------------------------------------------------------
-                      00058 ; overlayable items in internal ram 
-                      00059 ;--------------------------------------------------------
-                      00060 ;       udata_ovr
-                      00061 ;--------------------------------------------------------
-                      00062 ; code
-                      00063 ;--------------------------------------------------------
-                      00064 code_utilities  code
-                      00065 ;***
-                      00066 ;  pBlock Stats: dbName = C
-                      00067 ;***
-                      00068 ;entry:  _Delay_ms      ;Function start
-                      00069 ; 2 exit points
-                      00070 ;has an exit
-                      00071 ;9 compiler assigned registers:
-                      00072 ;   r0x1000
-                      00073 ;   STK00
-                      00074 ;   r0x1001
-                      00075 ;   r0x1002
-                      00076 ;   r0x1003
-                      00077 ;   r0x1004
-                      00078 ;   r0x1005
-                      00079 ;   r0x1006
-                      00080 ;   r0x1007
-                      00081 ;; Starting pCode block
-                      00082 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00083 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
-                      00084 ;; ***  genLabel  2763
-                      00085 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00086 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2340:genFunction *{*
-                      00087 ;; ***  genFunction  2342 curr label offset=0previous max_key=0 
-0000                  00088 _Delay_ms       ;Function start
-                      00089 ; 2 exit points
-                      00090 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00091 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7358:genReceive *{*
-                      00092 ;; ***  genReceive  7359
-                      00093 ;;      694 register type nRegs=2
-                      00094 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1907:assignResultValue *{*
-                      00095 ;; ***  assignResultValue  1909
-                      00096 ;;      line = 1911 result -=-, size=0, left AOP_REG=r0x1048, size=2, right -=-, size=0
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-11-2022  20:13:41         PAGE  3
+                      00058 ;--------------------------------------------------------
+                      00059 ; overlayable items in internal ram 
+                      00060 ;--------------------------------------------------------
+                      00061 ;       udata_ovr
+                      00062 ;--------------------------------------------------------
+                      00063 ; code
+                      00064 ;--------------------------------------------------------
+                      00065 code_utilities  code
+                      00066 ;***
+                      00067 ;  pBlock Stats: dbName = C
+                      00068 ;***
+                      00069 ;entry:  _Delay_ms      ;Function start
+                      00070 ; 2 exit points
+                      00071 ;has an exit
+                      00072 ;9 compiler assigned registers:
+                      00073 ;   r0x1000
+                      00074 ;   STK00
+                      00075 ;   r0x1001
+                      00076 ;   r0x1002
+                      00077 ;   r0x1003
+                      00078 ;   r0x1004
+                      00079 ;   r0x1005
+                      00080 ;   r0x1006
+                      00081 ;   r0x1007
+                      00082 ;; Starting pCode block
+                      00083 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00084 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
+                      00085 ;; ***  genLabel  2763
+                      00086 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00087 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2340:genFunction *{*
+                      00088 ;; ***  genFunction  2342 curr label offset=0previous max_key=0 
+0000                  00089 _Delay_ms       ;Function start
+                      00090 ; 2 exit points
+                      00091 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00092 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7358:genReceive *{*
+                      00093 ;; ***  genReceive  7359
+                      00094 ;;      694 register type nRegs=2
+                      00095 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1907:assignResultValue *{*
+                      00096 ;; ***  assignResultValue  1909
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-12-2022  03:46:47         PAGE  3
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
   VALUE
 
-                      00097 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
-                      00098 ;;      1109 rIdx = r0x1049 
-                      00099         .line   3; "utilities.c"        void Delay_ms(unsigned int delay_ms )
-0000   ???? ????      00100         BANKSEL r0x1000
-0002   00??           00101         MOVWF   r0x1000
-                      00102 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1423:get_returnvalue
-                      00103 ;; ***  popRegFromIdx,1042  , rIdx=0x7f
-0003   08??           00104         MOVF    STK00,W
-                      00105 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
-                      00106 ;;      1109 rIdx = r0x1048 
-0004   00??           00107         MOVWF   r0x1001
-                      00108 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00109 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6927:genAssign *{*
-                      00110 ;; ***  genAssign  6928
-                      00111 ;;      694 register type nRegs=2
-                      00112 ;;      line = 6937 result AOP_REG=r0x104A, size=2, left -=-, size=0, right AOP_LIT=0x01, size=2
-                      00113 ;; ***  genAssign  7023
-                      00114 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7030:genAssign
-                      00115         .line   6; "utilities.c"        for(i = 1 ;i<=1000;i++)
-0005   3001           00116         MOVLW   0x01
-                      00117 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7032:genAssign
-                      00118 ;;      1109 rIdx = r0x104A 
-0006   00??           00119         MOVWF   r0x1002
-                      00120 ;; ***  genAssign  7023
-                      00121 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7035:genAssign
-                      00122 ;;      1109 rIdx = r0x104B 
-0007   01??           00123         CLRF    r0x1003
-                      00124 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00125 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
-                      00126 ;; ***  genLabel  2763
-                      00127 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00128 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6927:genAssign *{*
-                      00129 ;; ***  genAssign  6928
-                      00130 ;;      694 register type nRegs=2
-                      00131 ;;      line = 6937 result AOP_REG=r0x104C, size=2, left -=-, size=0, right AOP_LIT=0x01, size=2
-                      00132 ;; ***  genAssign  7023
-                      00133 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7030:genAssign
-0008                  00134 _00115_DS_
-                      00135         .line   8; "utilities.c"        for(j = 1 ;j<= delay_ms ; j++)
-0008   3001           00136         MOVLW   0x01
-                      00137 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7032:genAssign
-                      00138 ;;      1109 rIdx = r0x104C 
-0009   ???? ????      00139         BANKSEL r0x1004
-000B   00??           00140         MOVWF   r0x1004
-                      00141 ;; ***  genAssign  7023
-                      00142 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7035:genAssign
-                      00143 ;;      1109 rIdx = r0x104D 
-000C   01??           00144         CLRF    r0x1005
-                      00145 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00146 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
-                      00147 ;; ***  genLabel  2763
-                      00148 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00149 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7120:genCast *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-11-2022  20:13:41         PAGE  4
+                      00097 ;;      line = 1911 result -=-, size=0, left AOP_REG=r0x1048, size=2, right -=-, size=0
+                      00098 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
+                      00099 ;;      1109 rIdx = r0x1049 
+                      00100         .line   3; "utilities.c"        void Delay_ms(unsigned int delay_ms )
+0000   ???? ????      00101         BANKSEL r0x1000
+0002   00??           00102         MOVWF   r0x1000
+                      00103 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1423:get_returnvalue
+                      00104 ;; ***  popRegFromIdx,1042  , rIdx=0x7f
+0003   08??           00105         MOVF    STK00,W
+                      00106 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
+                      00107 ;;      1109 rIdx = r0x1048 
+0004   00??           00108         MOVWF   r0x1001
+                      00109 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00110 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6927:genAssign *{*
+                      00111 ;; ***  genAssign  6928
+                      00112 ;;      694 register type nRegs=2
+                      00113 ;;      line = 6937 result AOP_REG=r0x104A, size=2, left -=-, size=0, right AOP_LIT=0x01, size=2
+                      00114 ;; ***  genAssign  7023
+                      00115 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7030:genAssign
+                      00116         .line   6; "utilities.c"        for( j = 1 ;j <=delay_ms;j++)
+0005   3001           00117         MOVLW   0x01
+                      00118 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7032:genAssign
+                      00119 ;;      1109 rIdx = r0x104A 
+0006   00??           00120         MOVWF   r0x1002
+                      00121 ;; ***  genAssign  7023
+                      00122 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7035:genAssign
+                      00123 ;;      1109 rIdx = r0x104B 
+0007   01??           00124         CLRF    r0x1003
+                      00125 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00126 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
+                      00127 ;; ***  genLabel  2763
+                      00128 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00129 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7120:genCast *{*
+                      00130 ;; ***  genCast  7121
+                      00131 ;;      694 register type nRegs=2
+                      00132 ;;      694 register type nRegs=2
+                      00133 ;;      line = 7129 result AOP_REG=r0x104C, size=2, left -=-, size=0, right AOP_REG=r0x104A, size=2
+                      00134 ;; ***  genCast  7253
+                      00135 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7277:genCast
+                      00136 ;;      1109 rIdx = r0x104A 
+0008                  00137 _00111_DS_
+0008   ???? ????      00138         BANKSEL r0x1002
+000A   08??           00139         MOVF    r0x1002,W
+                      00140 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7278:genCast
+                      00141 ;;      1109 rIdx = r0x104C 
+000B   00??           00142         MOVWF   r0x1004
+                      00143 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7277:genCast
+                      00144 ;;      1109 rIdx = r0x104B 
+000C   08??           00145         MOVF    r0x1003,W
+000D   00??           00146         MOVWF   r0x1005
+000E   02??           00147         SUBWF   r0x1000,W
+                      00148 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3477:genCmp
+000F   1D03           00149         BTFSS   STATUS,2
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-12-2022  03:46:47         PAGE  4
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
   VALUE
 
-                      00150 ;; ***  genCast  7121
-                      00151 ;;      694 register type nRegs=2
-                      00152 ;;      694 register type nRegs=2
-                      00153 ;;      line = 7129 result AOP_REG=r0x104E, size=2, left -=-, size=0, right AOP_REG=r0x104C, size=2
-                      00154 ;; ***  genCast  7253
-                      00155 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7277:genCast
-                      00156 ;;      1109 rIdx = r0x104C 
-000D                  00157 _00108_DS_
-000D   ???? ????      00158         BANKSEL r0x1004
-000F   08??           00159         MOVF    r0x1004,W
-                      00160 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7278:genCast
-                      00161 ;;      1109 rIdx = r0x104E 
-0010   00??           00162         MOVWF   r0x1006
-                      00163 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7277:genCast
-                      00164 ;;      1109 rIdx = r0x104D 
-0011   08??           00165         MOVF    r0x1005,W
-                      00166 ;;1     MOVWF   r0x1007
-0012   02??           00167         SUBWF   r0x1000,W
-                      00168 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3477:genCmp
-0013   1D03           00169         BTFSS   STATUS,2
-                      00170 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3478:genCmp
-                      00171 ;; ***  popGetLabel  key=21, label offset 4
-0014   2???           00172         GOTO    _00125_DS_
-                      00173 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3269:pic14_mov2w_regOrLit
-                      00174 ;;      1109 rIdx = r0x104E 
-0015   08??           00175         MOVF    r0x1006,W
-                      00176 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3480:genCmp
-                      00177 ;;      1109 rIdx = r0x1048 
-0016   02??           00178         SUBWF   r0x1001,W
-                      00179 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3237:genSkipc *{*
-                      00180 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3244:genSkipc
-0017                  00181 _00125_DS_
-0017   1C03           00182         BTFSS   STATUS,0
-                      00183 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3246:genSkipc
-                      00184 ;; ***  popGetLabel  key=7, label offset 4
-0018   2???           00185         GOTO    _00111_DS_
-                      00186 ;;genSkipc:3247: created from rifx:027A5DF4
-                      00187 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00150 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3478:genCmp
+                      00151 ;; ***  popGetLabel  key=24, label offset 4
+0010   2???           00152         GOTO    _00128_DS_
+                      00153 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3269:pic14_mov2w_regOrLit
+                      00154 ;;      1109 rIdx = r0x104C 
+0011   08??           00155         MOVF    r0x1004,W
+                      00156 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3480:genCmp
+                      00157 ;;      1109 rIdx = r0x1048 
+0012   02??           00158         SUBWF   r0x1001,W
+                      00159 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3237:genSkipc *{*
+                      00160 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3244:genSkipc
+0013                  00161 _00128_DS_
+0013   1C03           00162         BTFSS   STATUS,0
+                      00163 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3246:genSkipc
+                      00164 ;; ***  popGetLabel  key=9, label offset 4
+0014   2???           00165         GOTO    _00113_DS_
+                      00166 ;;genSkipc:3247: created from rifx:027A5DF4
+                      00167 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00168 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00169 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6927:genAssign *{*
+                      00170 ;; ***  genAssign  6928
+                      00171 ;;      694 register type nRegs=2
+                      00172 ;;      line = 6937 result AOP_REG=r0x104C, size=2, left -=-, size=0, right AOP_LIT=0x78, size=2
+                      00173 ;; ***  genAssign  7023
+                      00174 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7030:genAssign
+                      00175         .line   8; "utilities.c"        for(i = 1 ;i<=120;i++)
+0015   3078           00176         MOVLW   0x78
+                      00177 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7032:genAssign
+                      00178 ;;      1109 rIdx = r0x104C 
+0016   ???? ????      00179         BANKSEL r0x1004
+0018   00??           00180         MOVWF   r0x1004
+                      00181 ;; ***  genAssign  7023
+                      00182 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7035:genAssign
+                      00183 ;;      1109 rIdx = r0x104D 
+0019   01??           00184         CLRF    r0x1005
+                      00185 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00186 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
+                      00187 ;; ***  genLabel  2763
                       00188 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00189 ;; ***  genPlus  611
-                      00190 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:612:genPlus *{*
-                      00191 ;;      694 register type nRegs=2
-                      00192 ;;      575
-                      00193 ;;      line = 618 result AOP_REG=r0x104C, size=2, left AOP_REG=r0x104C, size=2, right AOP_LIT=0x01, siz
-                            e=1
-                      00194 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:142:genPlusIncr *{*
-                      00195 ;; ***  genPlusIncr  144
-                      00196 ;;      result AOP_REG, left AOP_REG, right AOP_LIT
-                      00197 ;;      genPlusIncr  156
-                      00198 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:168:genPlusIncr
-                      00199 ;;      1109 rIdx = r0x104C 
-0019   ???? ????      00200         BANKSEL r0x1004
-001B   0A??           00201         INCF    r0x1004,F
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-11-2022  20:13:41         PAGE  5
+                      00189 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7317:genDjnz *{*
+                      00190 ;; ***  genDjnz  7318
+                      00191 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:896:genMinus *{*
+                      00192 ;; ***  genMinus  897
+                      00193 ;;      694 register type nRegs=2
+                      00194 ;;      694 register type nRegs=2
+                      00195 ;;      result AOP_REG, left AOP_REG, right AOP_LIT
+                      00196 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:269:genAddLit *{*
+                      00197 ;; ***  genAddLit  270
+                      00198 ;;  left and result aren't same genAddLit  514
+                      00199 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:546:genAddLit
+001A                  00200 _00109_DS_
+001A   30FF           00201         MOVLW   0xff
+                      00202 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:547:genAddLit
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-12-2022  03:46:47         PAGE  5
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
   VALUE
 
-                      00202 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:172:genPlusIncr
-001C   1903           00203         BTFSC   STATUS,2
-                      00204 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:173:genPlusIncr
-                      00205 ;;      1109 rIdx = r0x104D 
-001D   0A??           00206         INCF    r0x1005,F
-                      00207 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00208 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2778:genGoto *{*
-                      00209 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2780:genGoto
-                      00210 ;; ***  popGetLabel  key=4, label offset 4
-001E   2???           00211         GOTO    _00108_DS_
-                      00212 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00213 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
-                      00214 ;; ***  genLabel  2763
-                      00215 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00216 ;; ***  genPlus  611
-                      00217 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:612:genPlus *{*
-                      00218 ;;      694 register type nRegs=2
-                      00219 ;;      575
-                      00220 ;;      line = 618 result AOP_REG=r0x104A, size=2, left AOP_REG=r0x104A, size=2, right AOP_LIT=0x01, siz
-                            e=1
-                      00221 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:142:genPlusIncr *{*
-                      00222 ;; ***  genPlusIncr  144
-                      00223 ;;      result AOP_REG, left AOP_REG, right AOP_LIT
-                      00224 ;;      genPlusIncr  156
-                      00225 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:168:genPlusIncr
-                      00226 ;;      1109 rIdx = r0x104A 
-001F                  00227 _00111_DS_
-                      00228         .line   6; "utilities.c"        for(i = 1 ;i<=1000;i++)
-001F   ???? ????      00229         BANKSEL r0x1002
-0021   0A??           00230         INCF    r0x1002,F
-                      00231 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:172:genPlusIncr
-0022   1903           00232         BTFSC   STATUS,2
-                      00233 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:173:genPlusIncr
-                      00234 ;;      1109 rIdx = r0x104B 
-0023   0A??           00235         INCF    r0x1003,F
-                      00236 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00237 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3547:genCmpGt *{*
-                      00238 ;; ***  genCmpGt  3548
-                      00239 ;;      694 register type nRegs=2
-                      00240 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3294:genCmp *{*
-                      00241 ;;swapping arguments (AOP_TYPEs 1/2)
-                      00242 ;;signed compare: left >= lit(0x3E9=1001), size=2, mask=ffff
-                      00243 ;; ***  mov2w  1381  offset=1
-                      00244 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
-                      00245 ;;      1109 rIdx = r0x104B 
-0024   08??           00246         MOVF    r0x1003,W
-                      00247 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3454:genCmp
-0025   3E80           00248         ADDLW   0x80
-                      00249 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3455:genCmp
-0026   3E7D           00250         ADDLW   0x7d
-                      00251 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3477:genCmp
-0027   1D03           00252         BTFSS   STATUS,2
-                      00253 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3478:genCmp
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-11-2022  20:13:41         PAGE  6
+                      00203 ;;      1109 rIdx = r0x104C 
+001B   ???? ????      00204         BANKSEL r0x1004
+001D   07??           00205         ADDWF   r0x1004,W
+                      00206 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:253:emitMOVWF *{*
+                      00207 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:257:emitMOVWF
+                      00208 ;;      1109 rIdx = r0x104E 
+001E   00??           00209         MOVWF   r0x1006
+                      00210 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:574:genAddLit
+001F   30FF           00211         MOVLW   0xff
+                      00212 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:253:emitMOVWF *{*
+                      00213 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:257:emitMOVWF
+                      00214 ;;      1109 rIdx = r0x104F 
+0020   00??           00215         MOVWF   r0x1007
+                      00216 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:576:genAddLit
+                      00217 ;;      1109 rIdx = r0x104D 
+0021   08??           00218         MOVF    r0x1005,W
+                      00219 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:577:genAddLit
+0022   1803           00220         BTFSC   STATUS,0
+                      00221 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:578:genAddLit
+                      00222 ;;      1109 rIdx = r0x104D 
+0023   0F??           00223         INCFSZ  r0x1005,W
+                      00224 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:579:genAddLit
+                      00225 ;;      1109 rIdx = r0x104F 
+0024   07??           00226         ADDWF   r0x1007,F
+                      00227 ;; ***  addSign  861
+                      00228 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:862:addSign *{*
+                      00229 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00230 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6927:genAssign *{*
+                      00231 ;; ***  genAssign  6928
+                      00232 ;;      694 register type nRegs=2
+                      00233 ;;      694 register type nRegs=2
+                      00234 ;;      line = 6937 result AOP_REG=r0x104C, size=2, left -=-, size=0, right AOP_REG=r0x104E, size=2
+                      00235 ;; ***  genAssign  7023
+                      00236 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+                      00237 ;; ***  mov2w  1381  offset=0
+                      00238 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
+                      00239 ;;      1109 rIdx = r0x104E 
+0025   08??           00240         MOVF    r0x1006,W
+                      00241 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7050:genAssign
+                      00242 ;;      1109 rIdx = r0x104C 
+0026   00??           00243         MOVWF   r0x1004
+                      00244 ;; ***  genAssign  7023
+                      00245 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+                      00246 ;; ***  mov2w  1381  offset=1
+                      00247 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
+                      00248 ;;      1109 rIdx = r0x104F 
+0027   08??           00249         MOVF    r0x1007,W
+                      00250 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7050:genAssign
+                      00251 ;;      1109 rIdx = r0x104D 
+0028   00??           00252         MOVWF   r0x1005
+                      00253 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00254 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6759:genIfx *{*
+                      00255 ;; ***  genIfx  6760
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-12-2022  03:46:47         PAGE  6
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
   VALUE
 
-                      00254 ;; ***  popGetLabel  key=22, label offset 4
-0028   2???           00255         GOTO    _00126_DS_
-                      00256 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3265:pic14_mov2w_regOrLit
-0029   30E9           00257         MOVLW   0xe9
-                      00258 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3480:genCmp
-                      00259 ;;      1109 rIdx = r0x104A 
-002A   02??           00260         SUBWF   r0x1002,W
-                      00261 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3237:genSkipc *{*
-                      00262 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3244:genSkipc
-002B                  00263 _00126_DS_
-002B   1C03           00264         BTFSS   STATUS,0
-                      00265 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3246:genSkipc
-                      00266 ;; ***  popGetLabel  key=11, label offset 4
-002C   2???           00267         GOTO    _00115_DS_
-                      00268 ;;genSkipc:3247: created from rifx:027A5DF4
+                      00256 ;;      694 register type nRegs=2
+                      00257 ;; ***  pic14_toBoolean  1515
+                      00258 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1527:pic14_toBoolean
+                      00259 ;;      1109 rIdx = r0x104E 
+0029   08??           00260         MOVF    r0x1006,W
+                      00261 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1533:pic14_toBoolean
+                      00262 ;;      1109 rIdx = r0x104F 
+002A   04??           00263         IORWF   r0x1007,W
+                      00264 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6808:genIfx
+002B   1D03           00265         BTFSS   STATUS,2
+                      00266 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6809:genIfx
+                      00267 ;; ***  popGetLabel  key=5, label offset 4
+002C   2???           00268         GOTO    _00109_DS_
                       00269 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00270 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00271 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
-                      00272 ;; ***  genLabel  2763
-                      00273 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-                      00274 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2528:genEndFunction *{*
-                      00275 ;; ***  genEndFunction  2530
-002D   0008           00276         RETURN  
-                      00277 ; exit point of _Delay_ms
-                      00278 
-                      00279 
-                      00280 ;       code size estimation:
-                      00281 ;          36+    5 =    41 instructions (   92 byte)
-                      00282 
-                      00283         end
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-11-2022  20:13:41         PAGE  7
+                      00270 ;; ***  genPlus  611
+                      00271 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:612:genPlus *{*
+                      00272 ;;      694 register type nRegs=2
+                      00273 ;;      575
+                      00274 ;;      line = 618 result AOP_REG=r0x104A, size=2, left AOP_REG=r0x104A, size=2, right AOP_LIT=0x01, siz
+                            e=1
+                      00275 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:142:genPlusIncr *{*
+                      00276 ;; ***  genPlusIncr  144
+                      00277 ;;      result AOP_REG, left AOP_REG, right AOP_LIT
+                      00278 ;;      genPlusIncr  156
+                      00279 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:168:genPlusIncr
+                      00280 ;;      1109 rIdx = r0x104A 
+                      00281         .line   6; "utilities.c"        for( j = 1 ;j <=delay_ms;j++)
+002D   0A??           00282         INCF    r0x1002,F
+                      00283 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:172:genPlusIncr
+002E   1903           00284         BTFSC   STATUS,2
+                      00285 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:173:genPlusIncr
+                      00286 ;;      1109 rIdx = r0x104B 
+002F   0A??           00287         INCF    r0x1003,F
+                      00288 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00289 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2778:genGoto *{*
+                      00290 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2780:genGoto
+                      00291 ;; ***  popGetLabel  key=7, label offset 4
+0030   2???           00292         GOTO    _00111_DS_
+                      00293 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00294 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
+                      00295 ;; ***  genLabel  2763
+                      00296 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+                      00297 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2528:genEndFunction *{*
+                      00298 ;; ***  genEndFunction  2530
+0031                  00299 _00113_DS_
+0031   0008           00300         RETURN  
+                      00301 ; exit point of _Delay_ms
+                      00302 
+                      00303 
+                      00304 ;       code size estimation:
+                      00305 ;          42+    4 =    46 instructions (  100 byte)
+                      00306 
+                      00307         end
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-12-2022  03:46:47         PAGE  7
 
 
 SYMBOL TABLE
@@ -388,7 +411,7 @@ CHS1                              00000004
 CHS2                              00000005
 CIS                               00000003
 CKE                               00000006
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-11-2022  20:13:41         PAGE  8
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-12-2022  03:46:47         PAGE  8
 
 
 SYMBOL TABLE
@@ -447,7 +470,7 @@ INTF                              00000001
 IRP                               00000007
 NOT_A                             00000005
 NOT_ADDRESS                       00000005
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-11-2022  20:13:41         PAGE  9
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-12-2022  03:46:47         PAGE  9
 
 
 SYMBOL TABLE
@@ -506,7 +529,7 @@ RA5                               00000005
 RB0                               00000000
 RB1                               00000001
 RB2                               00000002
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-11-2022  20:13:41         PAGE 10
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-12-2022  03:46:47         PAGE 10
 
 
 SYMBOL TABLE
@@ -565,7 +588,7 @@ SSAVE                             00000000
 SSPADD                            00000093
 SSPBUF                            00000013
 SSPCON                            00000014
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-11-2022  20:13:41         PAGE 11
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-12-2022  03:46:47         PAGE 11
 
 
 SYMBOL TABLE
@@ -624,7 +647,7 @@ TMR2IE                            00000001
 TMR2IF                            00000001
 TMR2ON                            00000002
 TOUTPS0                           00000003
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-11-2022  20:13:41         PAGE 12
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-12-2022  03:46:47         PAGE 12
 
 
 SYMBOL TABLE
@@ -683,7 +706,7 @@ TXREG                             00000019
 TXSTA                             00000098
 UA                                00000001
 W                                 00000000
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-11-2022  20:13:41         PAGE 13
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-12-2022  03:46:47         PAGE 13
 
 
 SYMBOL TABLE
@@ -695,11 +718,10 @@ WREN                              00000002
 WRERR                             00000003
 WSAVE                             00000000
 Z                                 00000002
-_00108_DS_                        0000000D
-_00111_DS_                        0000001F
-_00115_DS_                        00000008
-_00125_DS_                        00000017
-_00126_DS_                        0000002B
+_00109_DS_                        0000001A
+_00111_DS_                        00000008
+_00113_DS_                        00000031
+_00128_DS_                        00000013
 _BODEN_OFF                        00003FBF
 _BODEN_ON                         00003FFF
 _BOREN_OFF                        00003FBF
@@ -742,13 +764,13 @@ __16F877A                         00000001
 __CODE_END                        00001FFF
 __CODE_START                      00000000
 __COMMON_RAM_END                  0000007F
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-11-2022  20:13:41         PAGE 14
+__COMMON_RAM_START                00000070
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\uti   5-12-2022  03:46:47         PAGE 14
 
 
 SYMBOL TABLE
   LABEL                             VALUE 
 
-__COMMON_RAM_START                00000070
 __EEPROM_END                      000021FF
 __EEPROM_START                    00002100
 __VECTOR_INT                      00000004
@@ -760,6 +782,7 @@ r0x1003                           00000003
 r0x1004                           00000004
 r0x1005                           00000005
 r0x1006                           00000006
+r0x1007                           00000007
 
 Errors   :     0
 Warnings :     0 reported,     0 suppressed

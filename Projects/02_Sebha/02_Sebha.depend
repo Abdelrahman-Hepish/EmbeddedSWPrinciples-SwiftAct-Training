@@ -1,7 +1,9 @@
 # depslib dependency file v1.0
-1652248366 source:e:\swift act\embeddedswprinciples-swiftact-training\projects\02_sebha\counter.c
+1652319936 source:e:\swift act\embeddedswprinciples-swiftact-training\projects\02_sebha\counter.c
 	"counter.h"
 	"SSD.h"
+	"PushButtons.h"
+	"utilities.h"
 
 1652247117 e:\swift act\embeddedswprinciples-swiftact-training\projects\02_sebha\counter.h
 
@@ -12,14 +14,16 @@
 
 1652227223 e:\swift act\embeddedswprinciples-swiftact-training\projects\02_sebha\gpio.h
 
-1652227135 e:\swift act\embeddedswprinciples-swiftact-training\projects\02_sebha\utilities.h
+1652310722 e:\swift act\embeddedswprinciples-swiftact-training\projects\02_sebha\utilities.h
 
-1652239255 source:e:\swift act\embeddedswprinciples-swiftact-training\projects\02_sebha\pushbuttons.c
+1652319702 source:e:\swift act\embeddedswprinciples-swiftact-training\projects\02_sebha\pushbuttons.c
 	"PushButtons.h"
+	"gpio.h"
+	"utilities.h"
 
-1652239255 e:\swift act\embeddedswprinciples-swiftact-training\projects\02_sebha\pushbuttons.h
+1652314664 e:\swift act\embeddedswprinciples-swiftact-training\projects\02_sebha\pushbuttons.h
 
-1652248236 source:e:\swift act\embeddedswprinciples-swiftact-training\projects\02_sebha\sebha.c
+1652319993 source:e:\swift act\embeddedswprinciples-swiftact-training\projects\02_sebha\sebha.c
 	<pic16f877a.h>
 	"PushButtons.h"
 	"counter.h"
@@ -27,11 +31,11 @@
 
 1652238103 e:\swift act\embeddedswprinciples-swiftact-training\projects\02_sebha\ssd.h
 
-1652247764 source:e:\swift act\embeddedswprinciples-swiftact-training\projects\02_sebha\ssd.c
+1652319872 source:e:\swift act\embeddedswprinciples-swiftact-training\projects\02_sebha\ssd.c
 	"SSD.h"
 	"gpio.h"
 	"utilities.h"
 
-1652219558 source:e:\swift act\embeddedswprinciples-swiftact-training\projects\02_sebha\utilities.c
+1652318769 source:e:\swift act\embeddedswprinciples-swiftact-training\projects\02_sebha\utilities.c
 	"utilities.h"
 

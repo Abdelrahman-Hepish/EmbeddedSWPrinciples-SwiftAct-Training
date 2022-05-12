@@ -1,8 +1,8 @@
 #include "SSD.h"
 #include "gpio.h"
 #include "utilities.h"
-#define SSD_TIME  1
-#define NUMBER_OF_SSDS 0
+#define SSD_TIME  20
+#define NUMBER_OF_SSDS 4
 static void TurnAllOff(void) ;
 static unsigned char ssd_data[] =
 {

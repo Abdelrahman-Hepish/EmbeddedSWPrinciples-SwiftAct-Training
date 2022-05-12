@@ -10,7 +10,7 @@ code, dbName =C
 ;; ***	genLabel  2763
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2340:genFunction *{*
-;; ***	genFunction  2342 curr label offset=14previous max_key=0 
+;; ***	genFunction  2342 curr label offset=18previous max_key=0 
 _COUNTER_GetCount	;Function start
 ; 2 exit points
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
@@ -26,7 +26,7 @@ _COUNTER_GetCount	;Function start
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
 ;;	1009
 ;;	1028  _currentCount   offset=0
-	.line	35; "counter.c"	ret = currentCount ;
+	.line	44; "counter.c"	ret = currentCount ;
 	MOVF	_currentCount,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7050:genAssign
 ;;	1109 rIdx = r0x1050 
@@ -49,7 +49,7 @@ _COUNTER_GetCount	;Function start
 ;; ***	mov2w  1381  offset=0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
 ;;	1109 rIdx = r0x1050 
-	.line	36; "counter.c"	return ret ;
+	.line	45; "counter.c"	return ret ;
 	MOVF	r0x1002,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1416:pass_argument
 ;; ***	popRegFromIdx,1042  , rIdx=0x7f
@@ -77,7 +77,7 @@ code, dbName =C
 ;; ***	genLabel  2763
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2340:genFunction *{*
-;; ***	genFunction  2342 curr label offset=8previous max_key=2 
+;; ***	genFunction  2342 curr label offset=8previous max_key=6 
 _COUNTER_SetCount	;Function start
 ; 2 exit points
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
@@ -91,7 +91,7 @@ _COUNTER_SetCount	;Function start
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
 ;;	1009
 ;;	1028  _currentCount   offset=1
-	.line	28; "counter.c"	void COUNTER_SetCount(unsigned int _Count)
+	.line	37; "counter.c"	void COUNTER_SetCount(unsigned int _Count)
 	MOVWF	(_currentCount + 1)
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1423:get_returnvalue
 ;; ***	popRegFromIdx,1042  , rIdx=0x7f
@@ -106,7 +106,7 @@ _COUNTER_SetCount	;Function start
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2528:genEndFunction *{*
 ;; ***	genEndFunction  2530
-	.line	30; "counter.c"	currentCount = _Count ;
+	.line	39; "counter.c"	currentCount = _Count ;
 	RETURN	
 ; exit point of _COUNTER_SetCount
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7426:genpic14Code *{*
@@ -124,26 +124,212 @@ code, dbName =C
 _COUNTER_Update	;Function start
 ; 2 exit points
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2086:genCall *{*
+;; ***	genCall  2088
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1801:saveRegisters *{*
+;; ***	saveRegisters  1803
+;; 	2135 left AOP_LIT
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
+	.line	18; "counter.c"	plusState  = PB_GetState(PB_PLUS) ;
+	MOVLW	0x00
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2173:genCall
+	PAGESEL	_PB_GetState
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2175:genCall
+	CALL	_PB_GetState
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2181:genCall
+	PAGESEL	$
+;;	694 register type nRegs=1
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1907:assignResultValue *{*
+;; ***	assignResultValue  1909
+;; 	line = 1911 result -=-, size=0, left AOP_REG=r0x1049, size=1, right -=-, size=0
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
+;;	1109 rIdx = r0x1049 
+	MOVWF	r0x1004
+;; 	2195 left AOP_REG
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1845:unsaveRegisters *{*
+;; ***	unsaveRegisters  1847
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2086:genCall *{*
+;; ***	genCall  2088
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1801:saveRegisters *{*
+;; ***	saveRegisters  1803
+;; 	2135 left AOP_LIT
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
+	.line	19; "counter.c"	resetState = PB_GetState(PB_RESET) ;
+	MOVLW	0x01
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2173:genCall
+	PAGESEL	_PB_GetState
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2175:genCall
+	CALL	_PB_GetState
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2181:genCall
+	PAGESEL	$
+;;	694 register type nRegs=1
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1907:assignResultValue *{*
+;; ***	assignResultValue  1909
+;; 	line = 1911 result -=-, size=0, left AOP_REG=r0x104A, size=1, right -=-, size=0
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
+;;	1109 rIdx = r0x104A 
+	.line	21; "counter.c"	if(resetState == PB_PRE_RELEASED )
+	MOVWF	r0x1005
+	XORLW	0x01
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3687:genCmpEq
+	BTFSS	STATUS,2
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3690:genCmpEq
+;; ***	popGetLabel  key=2, label offset 8
+	GOTO	_00110_DS_
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6927:genAssign *{*
+;; ***	genAssign  6928
+;; ***	aopForSym 315
+;;	327 sym->rname = _currentCount, size = 2
+;; 	line = 6937 result AOP_DIR=_currentCount, size=2, left -=-, size=0, right AOP_LIT=0x00, size=2
+;; ***	genAssign  7023
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7035:genAssign
+;;	1009
+;;	1028  _currentCount   offset=0
+	.line	22; "counter.c"	currentCount = 0 ;
+	CLRF	_currentCount
+;; ***	genAssign  7023
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7035:genAssign
+;;	1009
+;;	1028  _currentCount   offset=1
+	CLRF	(_currentCount + 1)
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
+;; ***	genLabel  2763
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3619:genCmpEq *{*
+;; ***	genCmpEq  3620
+;; ifx is non-null
+;;	694 register type nRegs=1
+;; 	line = 3631 result AOP_CRY=0x00, size=0, left AOP_REG=r0x1049, size=1, right AOP_LIT=0x01, size=1
+;; ***	mov2w  1381  offset=0
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
+;;	1109 rIdx = r0x1049 
+_00110_DS_
+	.line	23; "counter.c"	if(plusState  == PB_PRE_RELEASED)
+	MOVF	r0x1004,W
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3685:genCmpEq
+	XORLW	0x01
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3687:genCmpEq
+	BTFSS	STATUS,2
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3690:genCmpEq
+;; ***	popGetLabel  key=4, label offset 8
+	GOTO	_00112_DS_
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;; ***	genPlus  611
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:612:genPlus *{*
 ;; ***	aopForSym 315
 ;;	327 sym->rname = _currentCount, size = 2
-;; 	line = 618 result AOP_DIR=_currentCount, size=2, left AOP_DIR=_currentCount, size=2, right AOP_LIT=0x01, size=1
+;;	694 register type nRegs=2
+;; 	line = 618 result AOP_REG=r0x1049, size=2, left AOP_DIR=_currentCount, size=2, right AOP_LIT=0x01, size=2
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:142:genPlusIncr *{*
 ;; ***	genPlusIncr  144
-;; 	result AOP_DIR, left AOP_DIR, right AOP_LIT
+;; 	result AOP_REG, left AOP_DIR, right AOP_LIT
 ;; 	genPlusIncr  156
-;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:168:genPlusIncr
+;; 	genPlusIncr  180
+;;	adding lit to something. size 2
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:269:genAddLit *{*
+;; ***	genAddLit  270
+;;  left and result aren't same	genAddLit  514
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:546:genAddLit
+	.line	25; "counter.c"	currentCount = (currentCount + 1 ) % 9999 ;
+	MOVLW	0x01
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:547:genAddLit
 ;;	1009
 ;;	1028  _currentCount   offset=0
-	.line	18; "counter.c"	currentCount ++ ;
-	INCF	_currentCount,F
-;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:172:genPlusIncr
-	BTFSC	STATUS,2
-;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:173:genPlusIncr
+	ADDWF	_currentCount,W
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:253:emitMOVWF *{*
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:257:emitMOVWF
+;;	1109 rIdx = r0x1049 
+	MOVWF	r0x1004
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:584:genAddLit
+;;	1109 rIdx = r0x104A 
+	CLRF	r0x1005
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:585:genAddLit
+;;	1109 rIdx = r0x104A 
+	RLF	r0x1005,F
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:586:genAddLit
 ;;	1009
 ;;	1028  _currentCount   offset=1
-	INCF	(_currentCount + 1),F
+	MOVF	(_currentCount + 1),W
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:587:genAddLit
+;;	1109 rIdx = r0x104A 
+	ADDWF	r0x1005,F
+;; ***	addSign  861
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:862:addSign *{*
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2086:genCall *{*
+;; ***	genCall  2088
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1801:saveRegisters *{*
+;; ***	saveRegisters  1803
+;;	694 register type nRegs=2
+;; 	2135 left AOP_LIT
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
+	MOVLW	0x0f
+;; 	2135 left AOP_LIT
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
+;; ***	popRegFromIdx,1042  , rIdx=0x7d
+	MOVWF	STK02
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
+	MOVLW	0x27
+;;	694 register type nRegs=2
+;; 	2135 left AOP_REG
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
+;; ***	popRegFromIdx,1042  , rIdx=0x7e
+	MOVWF	STK01
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+;; ***	mov2w  1381  offset=0
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
+;;	1109 rIdx = r0x1049 
+	MOVF	r0x1004,W
+;; 	2135 left AOP_REG
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
+;; ***	popRegFromIdx,1042  , rIdx=0x7f
+	MOVWF	STK00
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
+;; ***	mov2w  1381  offset=1
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
+;;	1109 rIdx = r0x104A 
+	MOVF	r0x1005,W
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2173:genCall
+	PAGESEL	__moduint
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2175:genCall
+	CALL	__moduint
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2181:genCall
+	PAGESEL	$
+;; ***	aopForSym 315
+;;	327 sym->rname = _currentCount, size = 2
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1907:assignResultValue *{*
+;; ***	assignResultValue  1909
+;; 	line = 1911 result -=-, size=0, left AOP_DIR=_currentCount, size=2, right -=-, size=0
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
+;;	1009
+;;	1028  _currentCount   offset=1
+	MOVWF	(_currentCount + 1)
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1423:get_returnvalue
+;; ***	popRegFromIdx,1042  , rIdx=0x7f
+	MOVF	STK00,W
+;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
+;;	1009
+;;	1028  _currentCount   offset=0
+	MOVWF	_currentCount
+;; 	2195 left AOP_DIR
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1845:unsaveRegisters *{*
+;; ***	unsaveRegisters  1847
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
+;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
+;; ***	genLabel  2763
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6927:genAssign *{*
 ;; ***	genAssign  6928
@@ -157,7 +343,8 @@ _COUNTER_Update	;Function start
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
 ;;	1009
 ;;	1028  _currentCount   offset=0
-	.line	19; "counter.c"	tempCount = currentCount ;
+_00112_DS_
+	.line	28; "counter.c"	tempCount = currentCount ;
 	MOVF	_currentCount,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7050:genAssign
 ;;	1109 rIdx = r0x1049 
@@ -179,7 +366,7 @@ _COUNTER_Update	;Function start
 ;; 	line = 6937 result AOP_REG=r0x104B, size=2, left -=-, size=0, right AOP_LIT=0x03, size=2
 ;; ***	genAssign  7023
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7030:genAssign
-	.line	21; "counter.c"	for(ssdIterator = SSD_R ;(signed)ssdIterator >= SSD_L ; ssdIterator -- )
+	.line	30; "counter.c"	for(ssdIterator = SSD_R ;(signed)ssdIterator >= SSD_L ; ssdIterator -- )
 	MOVLW	0x03
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7032:genAssign
 ;;	1109 rIdx = r0x104B 
@@ -202,8 +389,8 @@ _COUNTER_Update	;Function start
 ;; 	2135 left AOP_LIT
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-_00110_DS_
-	.line	23; "counter.c"	digit = tempCount % 10 ;
+_00114_DS_
+	.line	32; "counter.c"	digit = tempCount % 10 ;
 	MOVLW	0x0a
 ;; 	2135 left AOP_LIT
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
@@ -260,7 +447,7 @@ _00110_DS_
 ;; ***	genCast  7253
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7277:genCast
 ;;	1109 rIdx = r0x104B 
-	.line	24; "counter.c"	SSD_SetSymbol(ssdIterator,digit) ;
+	.line	33; "counter.c"	SSD_SetSymbol(ssdIterator,digit) ;
 	MOVF	r0x1006,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7278:genCast
 ;;	1109 rIdx = r0x104D 
@@ -310,7 +497,7 @@ _00110_DS_
 ;; 	2135 left AOP_LIT
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-	.line	25; "counter.c"	tempCount /= 10 ;
+	.line	34; "counter.c"	tempCount /= 10 ;
 	MOVLW	0x0a
 ;; 	2135 left AOP_LIT
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
@@ -372,7 +559,7 @@ _00110_DS_
 ;; ***	genAddLit  270
 ;; hi = ff	genAddLit  383
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:395:genAddLit
-	.line	21; "counter.c"	for(ssdIterator = SSD_R ;(signed)ssdIterator >= SSD_L ; ssdIterator -- )
+	.line	30; "counter.c"	for(ssdIterator = SSD_R ;(signed)ssdIterator >= SSD_L ; ssdIterator -- )
 	MOVLW	0xff
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:396:genAddLit
 ;;	1109 rIdx = r0x104B 
@@ -400,8 +587,8 @@ _00110_DS_
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3244:genSkipc
 	BTFSS	STATUS,0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3246:genSkipc
-;; ***	popGetLabel  key=2, label offset 8
-	GOTO	_00110_DS_
+;; ***	popGetLabel  key=6, label offset 8
+	GOTO	_00114_DS_
 ;;genSkipc:3247: created from rifx:027A5DF4
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
@@ -437,7 +624,7 @@ _COUNTER_Init	;Function start
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
 ;;	1009
 ;;	1028  _currentCount   offset=1
-	.line	5; "counter.c"	void COUNTER_Init(unsigned int initialCount)
+	.line	7; "counter.c"	void COUNTER_Init(unsigned int initialCount)
 	MOVWF	(_currentCount + 1)
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1423:get_returnvalue
 ;; ***	popRegFromIdx,1042  , rIdx=0x7f
@@ -452,7 +639,7 @@ _COUNTER_Init	;Function start
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2528:genEndFunction *{*
 ;; ***	genEndFunction  2530
-	.line	7; "counter.c"	currentCount = initialCount ;
+	.line	9; "counter.c"	currentCount = initialCount ;
 	RETURN	
 ; exit point of _COUNTER_Init
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7426:genpic14Code *{*

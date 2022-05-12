@@ -3,10 +3,10 @@
 
 typedef enum
 {
-    PB_1 ,
-    PB_2 ,
-    PB_3 ,
-    PB_4
+    PB_PLUS ,
+    PB_RESET ,
+    PB_UNUSED_1 ,
+    PB_UNUSED_2
 }tPB ;
 typedef enum
 {
@@ -17,6 +17,5 @@ typedef enum
 }tPB_State ;
 void PB_Init(tPB pb ,tPB_State pbState) ;
 void PB_Update(void) ;
-void PB_SetState(tPB pb ,tPB_State pbState) ;
 tPB_State PB_GetState(tPB pb);
 #endif // __PUSH_BUTTONS_H__

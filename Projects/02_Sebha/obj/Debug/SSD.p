@@ -184,7 +184,7 @@ _SSD_SetSymbol	;Function start
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
 ;;	1109 rIdx = r0x105B 
 	.line	83; "SSD.c"	void SSD_SetSymbol(tSSD ssd,tSSD_Symbol ssdSymbol)
-	MOVWF	r0x100B
+	MOVWF	r0x1013
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7358:genReceive *{*
 ;; ***	genReceive  7359
@@ -197,7 +197,7 @@ _SSD_SetSymbol	;Function start
 	MOVF	STK00,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
 ;;	1109 rIdx = r0x105C 
-	MOVWF	r0x100C
+	MOVWF	r0x1014
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2878:genMult *{*
@@ -219,7 +219,7 @@ _SSD_SetSymbol	;Function start
 ;; ***	mov2w  1381  offset=0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
 ;;	1109 rIdx = r0x105B 
-	MOVF	r0x100B,W
+	MOVF	r0x1013,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1433:call_libraryfunc
 	PAGESEL	__mulchar
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1435:call_libraryfunc
@@ -228,12 +228,12 @@ _SSD_SetSymbol	;Function start
 	PAGESEL	$
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
 ;;	1109 rIdx = r0x105D 
-	MOVWF	r0x100D
+	MOVWF	r0x1015
 ;; ***	addSign  861
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:862:addSign *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:881:addSign
 ;;	1109 rIdx = r0x105E 
-	CLRF	r0x100E
+	CLRF	r0x1016
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;; ***	genPlus  611
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:612:genPlus *{*
@@ -253,28 +253,28 @@ _SSD_SetSymbol	;Function start
 ;;	_SSD_IN_SYSTEM
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:726:genPlus
 ;;	1109 rIdx = r0x105D 
-	MOVF	r0x100D,W
+	MOVF	r0x1015,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:735:genPlus
 	ADDLW	(_SSD_IN_SYSTEM + 0)
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:736:genPlus
 ;;	1109 rIdx = r0x105B 
-	MOVWF	r0x100B
+	MOVWF	r0x1013
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:771:genPlus
 	MOVLW	high (_SSD_IN_SYSTEM + 0)
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:772:genPlus
 ;;	1109 rIdx = r0x105F 
-	MOVWF	r0x100F
+	MOVWF	r0x1017
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:774:genPlus
 ;;	1109 rIdx = r0x105E 
-	MOVF	r0x100E,W
+	MOVF	r0x1016,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:775:genPlus
 	BTFSC	STATUS,0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:776:genPlus
 ;;	1109 rIdx = r0x105E 
-	INCFSZ	r0x100E,W
+	INCFSZ	r0x1016,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:777:genPlus
 ;;	1109 rIdx = r0x105F 
-	ADDWF	r0x100F,F
+	ADDWF	r0x1017,F
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;; ***	genPlus  611
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:612:genPlus *{*
@@ -287,12 +287,12 @@ _SSD_SetSymbol	;Function start
 ;; 	genPlusIncr  156
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:168:genPlusIncr
 ;;	1109 rIdx = r0x105B 
-	INCF	r0x100B,F
+	INCF	r0x1013,F
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:172:genPlusIncr
 	BTFSC	STATUS,2
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:173:genPlusIncr
 ;;	1109 rIdx = r0x105F 
-	INCF	r0x100F,F
+	INCF	r0x1017,F
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6686:genPointerSet *{*
 ;; ***	genPointerSet  6687
@@ -306,20 +306,20 @@ _SSD_SetSymbol	;Function start
 ;; ***	mov2w  1381  offset=0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
 ;;	1109 rIdx = r0x105B 
-	MOVF	r0x100B,W
+	MOVF	r0x1013,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5602:setup_fsr
 	MOVWF	FSR
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5553:SetIrp *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5580:SetIrp
 	BCF	STATUS,7
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5583:SetIrp
-	BTFSC	r0x100F,0
+	BTFSC	r0x1017,0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5584:SetIrp
 	BSF	STATUS,7
 ;; ***	genNearPointerSet  6548
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6564:genNearPointerSet
 ;;	1109 rIdx = r0x105C 
-	MOVF	r0x100C,W
+	MOVF	r0x1014,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6569:genNearPointerSet
 	MOVWF	INDF
 ;; ***	genNearPointerSet  6577
@@ -356,7 +356,7 @@ _SSD_SetState	;Function start
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
 ;;	1109 rIdx = r0x1056 
 	.line	79; "SSD.c"	void SSD_SetState(tSSD ssd,tSSD_State ssdState)
-	MOVWF	r0x1010
+	MOVWF	r0x1018
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7358:genReceive *{*
 ;; ***	genReceive  7359
@@ -369,7 +369,7 @@ _SSD_SetState	;Function start
 	MOVF	STK00,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
 ;;	1109 rIdx = r0x1057 
-	MOVWF	r0x1011
+	MOVWF	r0x1019
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2878:genMult *{*
@@ -391,7 +391,7 @@ _SSD_SetState	;Function start
 ;; ***	mov2w  1381  offset=0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
 ;;	1109 rIdx = r0x1056 
-	MOVF	r0x1010,W
+	MOVF	r0x1018,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1433:call_libraryfunc
 	PAGESEL	__mulchar
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1435:call_libraryfunc
@@ -400,12 +400,12 @@ _SSD_SetState	;Function start
 	PAGESEL	$
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
 ;;	1109 rIdx = r0x1058 
-	MOVWF	r0x1012
+	MOVWF	r0x101A
 ;; ***	addSign  861
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:862:addSign *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:881:addSign
 ;;	1109 rIdx = r0x1059 
-	CLRF	r0x1013
+	CLRF	r0x101B
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;; ***	genPlus  611
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:612:genPlus *{*
@@ -425,28 +425,28 @@ _SSD_SetState	;Function start
 ;;	_SSD_IN_SYSTEM
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:726:genPlus
 ;;	1109 rIdx = r0x1058 
-	MOVF	r0x1012,W
+	MOVF	r0x101A,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:735:genPlus
 	ADDLW	(_SSD_IN_SYSTEM + 0)
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:736:genPlus
 ;;	1109 rIdx = r0x1056 
-	MOVWF	r0x1010
+	MOVWF	r0x1018
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:771:genPlus
 	MOVLW	high (_SSD_IN_SYSTEM + 0)
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:772:genPlus
 ;;	1109 rIdx = r0x105A 
-	MOVWF	r0x1014
+	MOVWF	r0x101C
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:774:genPlus
 ;;	1109 rIdx = r0x1059 
-	MOVF	r0x1013,W
+	MOVF	r0x101B,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:775:genPlus
 	BTFSC	STATUS,0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:776:genPlus
 ;;	1109 rIdx = r0x1059 
-	INCFSZ	r0x1013,W
+	INCFSZ	r0x101B,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:777:genPlus
 ;;	1109 rIdx = r0x105A 
-	ADDWF	r0x1014,F
+	ADDWF	r0x101C,F
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6686:genPointerSet *{*
 ;; ***	genPointerSet  6687
@@ -460,20 +460,20 @@ _SSD_SetState	;Function start
 ;; ***	mov2w  1381  offset=0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
 ;;	1109 rIdx = r0x1056 
-	MOVF	r0x1010,W
+	MOVF	r0x1018,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5602:setup_fsr
 	MOVWF	FSR
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5553:SetIrp *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5580:SetIrp
 	BCF	STATUS,7
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5583:SetIrp
-	BTFSC	r0x1014,0
+	BTFSC	r0x101C,0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5584:SetIrp
 	BSF	STATUS,7
 ;; ***	genNearPointerSet  6548
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6564:genNearPointerSet
 ;;	1109 rIdx = r0x1057 
-	MOVF	r0x1011,W
+	MOVF	r0x1019,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6569:genNearPointerSet
 	MOVWF	INDF
 ;; ***	genNearPointerSet  6577
@@ -511,7 +511,7 @@ _SSD_Update	;Function start
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7035:genAssign
 ;;	1109 rIdx = r0x104F 
 	.line	54; "SSD.c"	for(ssdIterator = SSD_L ;ssdIterator <= SSD_R ;ssdIterator ++ )
-	CLRF	r0x1015
+	CLRF	r0x101D
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
 ;; ***	genLabel  2763
@@ -546,7 +546,7 @@ _00129_DS_
 ;; ***	mov2w  1381  offset=0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
 ;;	1109 rIdx = r0x104F 
-	MOVF	r0x1015,W
+	MOVF	r0x101D,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1433:call_libraryfunc
 	PAGESEL	__mulchar
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1435:call_libraryfunc
@@ -555,12 +555,12 @@ _00129_DS_
 	PAGESEL	$
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
 ;;	1109 rIdx = r0x1050 
-	MOVWF	r0x1016
+	MOVWF	r0x101E
 ;; ***	addSign  861
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:862:addSign *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:881:addSign
 ;;	1109 rIdx = r0x1051 
-	CLRF	r0x1017
+	CLRF	r0x101F
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;; ***	genPlus  611
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:612:genPlus *{*
@@ -580,28 +580,28 @@ _00129_DS_
 ;;	_SSD_IN_SYSTEM
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:726:genPlus
 ;;	1109 rIdx = r0x1050 
-	MOVF	r0x1016,W
+	MOVF	r0x101E,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:735:genPlus
 	ADDLW	(_SSD_IN_SYSTEM + 0)
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:736:genPlus
 ;;	1109 rIdx = r0x1052 
-	MOVWF	r0x1018
+	MOVWF	r0x1020
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:771:genPlus
 	MOVLW	high (_SSD_IN_SYSTEM + 0)
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:772:genPlus
 ;;	1109 rIdx = r0x1053 
-	MOVWF	r0x1019
+	MOVWF	r0x1021
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:774:genPlus
 ;;	1109 rIdx = r0x1051 
-	MOVF	r0x1017,W
+	MOVF	r0x101F,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:775:genPlus
 	BTFSC	STATUS,0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:776:genPlus
 ;;	1109 rIdx = r0x1051 
-	INCFSZ	r0x1017,W
+	INCFSZ	r0x101F,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:777:genPlus
 ;;	1109 rIdx = r0x1053 
-	ADDWF	r0x1019,F
+	ADDWF	r0x1021,F
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6162:genPointerGet *{*
 ;; ***	genPointerGet  6163
@@ -614,14 +614,14 @@ _00129_DS_
 ;; ***	mov2w  1381  offset=0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
 ;;	1109 rIdx = r0x1052 
-	MOVF	r0x1018,W
+	MOVF	r0x1020,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5602:setup_fsr
 	MOVWF	FSR
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5553:SetIrp *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5580:SetIrp
 	BCF	STATUS,7
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5583:SetIrp
-	BTFSC	r0x1019,0
+	BTFSC	r0x1021,0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5584:SetIrp
 	BSF	STATUS,7
 ;; ***	genNearPointerGet  5988
@@ -629,7 +629,7 @@ _00129_DS_
 	MOVF	INDF,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6002:genNearPointerGet
 ;;	1109 rIdx = r0x1054 
-	MOVWF	r0x101A
+	MOVWF	r0x1022
 	XORLW	0x01
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3687:genCmpEq
 	BTFSS	STATUS,2
@@ -657,25 +657,25 @@ _00129_DS_
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:726:genPlus
 ;;	1109 rIdx = r0x1050 
 	.line	59; "SSD.c"	GPIO_SetPortState(PORT_D, ssd_data[SSD_IN_SYSTEM[ssdIterator].DssdSymbol]) ;
-	MOVF	r0x1016,W
+	MOVF	r0x101E,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:735:genPlus
 	ADDLW	(_SSD_IN_SYSTEM + 0)
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:736:genPlus
 ;;	1109 rIdx = r0x1050 
-	MOVWF	r0x1016
+	MOVWF	r0x101E
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:749:genPlus
 ;;	1109 rIdx = r0x1051 
-	MOVF	r0x1017,W
+	MOVF	r0x101F,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:750:genPlus
 	BTFSC	STATUS,0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:751:genPlus
 ;;	1109 rIdx = r0x1051 
-	INCFSZ	r0x1017,W
+	INCFSZ	r0x101F,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:752:genPlus
 	ADDLW	high (_SSD_IN_SYSTEM + 0)
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:753:genPlus
 ;;	1109 rIdx = r0x1051 
-	MOVWF	r0x1017
+	MOVWF	r0x101F
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;; ***	genPlus  611
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:612:genPlus *{*
@@ -688,12 +688,12 @@ _00129_DS_
 ;; 	genPlusIncr  156
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:168:genPlusIncr
 ;;	1109 rIdx = r0x1050 
-	INCF	r0x1016,F
+	INCF	r0x101E,F
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:172:genPlusIncr
 	BTFSC	STATUS,2
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:173:genPlusIncr
 ;;	1109 rIdx = r0x1051 
-	INCF	r0x1017,F
+	INCF	r0x101F,F
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6162:genPointerGet *{*
 ;; ***	genPointerGet  6163
@@ -706,14 +706,14 @@ _00129_DS_
 ;; ***	mov2w  1381  offset=0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
 ;;	1109 rIdx = r0x1050 
-	MOVF	r0x1016,W
+	MOVF	r0x101E,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5602:setup_fsr
 	MOVWF	FSR
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5553:SetIrp *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5580:SetIrp
 	BCF	STATUS,7
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5583:SetIrp
-	BTFSC	r0x1017,0
+	BTFSC	r0x101F,0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5584:SetIrp
 	BSF	STATUS,7
 ;; ***	genNearPointerGet  5988
@@ -721,11 +721,11 @@ _00129_DS_
 	MOVF	INDF,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6002:genNearPointerGet
 ;;	1109 rIdx = r0x1052 
-	MOVWF	r0x1018
+	MOVWF	r0x1020
 	ADDLW	(_ssd_data + 0)
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:736:genPlus
 ;;	1109 rIdx = r0x1050 
-	MOVWF	r0x1016
+	MOVWF	r0x101E
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:799:genPlus
 	MOVLW	high (_ssd_data + 0)
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:800:genPlus
@@ -734,7 +734,7 @@ _00129_DS_
 	ADDLW	0x01
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:802:genPlus
 ;;	1109 rIdx = r0x1051 
-	MOVWF	r0x1017
+	MOVWF	r0x101F
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6162:genPointerGet *{*
 ;; ***	genPointerGet  6163
@@ -747,14 +747,14 @@ _00129_DS_
 ;; ***	mov2w  1381  offset=0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
 ;;	1109 rIdx = r0x1050 
-	MOVF	r0x1016,W
+	MOVF	r0x101E,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5602:setup_fsr
 	MOVWF	FSR
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5553:SetIrp *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5580:SetIrp
 	BCF	STATUS,7
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5583:SetIrp
-	BTFSC	r0x1017,0
+	BTFSC	r0x101F,0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5584:SetIrp
 	BSF	STATUS,7
 ;; ***	genNearPointerGet  5988
@@ -762,7 +762,7 @@ _00129_DS_
 	MOVF	INDF,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6002:genNearPointerGet
 ;;	1109 rIdx = r0x1052 
-	MOVWF	r0x1018
+	MOVWF	r0x1020
 	MOVWF	STK00
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
@@ -787,7 +787,7 @@ _00129_DS_
 	MOVLW	0x04
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3432:genCmp
 ;;	1109 rIdx = r0x104F 
-	SUBWF	r0x1015,W
+	SUBWF	r0x101D,W
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3237:genSkipc *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3242:genSkipc
 	BTFSC	STATUS,0
@@ -810,7 +810,7 @@ _00129_DS_
 	MOVLW	_00144_DS_
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7090:genJumpTab
 ;;	1109 rIdx = r0x104F 
-	ADDWF	r0x1015,W
+	ADDWF	r0x101D,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7091:genJumpTab
 	BTFSC	STATUS,0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7092:genJumpTab
@@ -1018,7 +1018,7 @@ _00124_DS_
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
 _00125_DS_
 	.line	75; "SSD.c"	Delay_ms(SSD_TIME) ;
-	MOVLW	0x01
+	MOVLW	0x14
 ;; 	2135 left AOP_LIT
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
 ;; ***	popRegFromIdx,1042  , rIdx=0x7f
@@ -1051,7 +1051,7 @@ _00125_DS_
 ;;	1109 rIdx = r0x104F 
 _00130_DS_
 	.line	54; "SSD.c"	for(ssdIterator = SSD_L ;ssdIterator <= SSD_R ;ssdIterator ++ )
-	INCF	r0x1015,F
+	INCF	r0x101D,F
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3547:genCmpGt *{*
 ;; ***	genCmpGt  3548
@@ -1063,7 +1063,7 @@ _00130_DS_
 	MOVLW	0x04
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3432:genCmp
 ;;	1109 rIdx = r0x104F 
-	SUBWF	r0x1015,W
+	SUBWF	r0x101D,W
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3237:genSkipc *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3244:genSkipc
 	BTFSS	STATUS,0
@@ -1104,7 +1104,7 @@ _SSD_Init	;Function start
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
 ;;	1109 rIdx = r0x1048 
 	.line	27; "SSD.c"	void SSD_Init(tSSD ssd,tSSD_State ssdState,tSSD_Symbol ssdSymbol)
-	MOVWF	r0x101B
+	MOVWF	r0x1023
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7358:genReceive *{*
 ;; ***	genReceive  7359
@@ -1117,7 +1117,7 @@ _SSD_Init	;Function start
 	MOVF	STK00,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
 ;;	1109 rIdx = r0x1049 
-	MOVWF	r0x101C
+	MOVWF	r0x1024
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7358:genReceive *{*
 ;; ***	genReceive  7359
@@ -1130,7 +1130,7 @@ _SSD_Init	;Function start
 	MOVF	STK01,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
 ;;	1109 rIdx = r0x104A 
-	MOVWF	r0x101D
+	MOVWF	r0x1025
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
@@ -1170,7 +1170,7 @@ _SSD_Init	;Function start
 	MOVLW	0x04
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3432:genCmp
 ;;	1109 rIdx = r0x1048 
-	SUBWF	r0x101B,W
+	SUBWF	r0x1023,W
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3237:genSkipc *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3242:genSkipc
 	BTFSC	STATUS,0
@@ -1193,7 +1193,7 @@ _SSD_Init	;Function start
 	MOVLW	_00116_DS_
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7090:genJumpTab
 ;;	1109 rIdx = r0x1048 
-	ADDWF	r0x101B,W
+	ADDWF	r0x1023,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7091:genJumpTab
 	BTFSC	STATUS,0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7092:genJumpTab
@@ -1412,7 +1412,7 @@ _00109_DS_
 ;; ***	mov2w  1381  offset=0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
 ;;	1109 rIdx = r0x1048 
-	MOVF	r0x101B,W
+	MOVF	r0x1023,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1433:call_libraryfunc
 	PAGESEL	__mulchar
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1435:call_libraryfunc
@@ -1421,12 +1421,12 @@ _00109_DS_
 	PAGESEL	$
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
 ;;	1109 rIdx = r0x104B 
-	MOVWF	r0x101E
+	MOVWF	r0x1026
 ;; ***	addSign  861
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:862:addSign *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:881:addSign
 ;;	1109 rIdx = r0x104C 
-	CLRF	r0x101F
+	CLRF	r0x1027
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;; ***	genPlus  611
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:612:genPlus *{*
@@ -1446,28 +1446,28 @@ _00109_DS_
 ;;	_SSD_IN_SYSTEM
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:726:genPlus
 ;;	1109 rIdx = r0x104B 
-	MOVF	r0x101E,W
+	MOVF	r0x1026,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:735:genPlus
 	ADDLW	(_SSD_IN_SYSTEM + 0)
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:736:genPlus
 ;;	1109 rIdx = r0x1048 
-	MOVWF	r0x101B
+	MOVWF	r0x1023
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:771:genPlus
 	MOVLW	high (_SSD_IN_SYSTEM + 0)
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:772:genPlus
 ;;	1109 rIdx = r0x104D 
-	MOVWF	r0x1020
+	MOVWF	r0x1028
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:774:genPlus
 ;;	1109 rIdx = r0x104C 
-	MOVF	r0x101F,W
+	MOVF	r0x1027,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:775:genPlus
 	BTFSC	STATUS,0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:776:genPlus
 ;;	1109 rIdx = r0x104C 
-	INCFSZ	r0x101F,W
+	INCFSZ	r0x1027,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:777:genPlus
 ;;	1109 rIdx = r0x104D 
-	ADDWF	r0x1020,F
+	ADDWF	r0x1028,F
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6686:genPointerSet *{*
 ;; ***	genPointerSet  6687
@@ -1481,20 +1481,20 @@ _00109_DS_
 ;; ***	mov2w  1381  offset=0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
 ;;	1109 rIdx = r0x1048 
-	MOVF	r0x101B,W
+	MOVF	r0x1023,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5602:setup_fsr
 	MOVWF	FSR
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5553:SetIrp *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5580:SetIrp
 	BCF	STATUS,7
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5583:SetIrp
-	BTFSC	r0x1020,0
+	BTFSC	r0x1028,0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5584:SetIrp
 	BSF	STATUS,7
 ;; ***	genNearPointerSet  6548
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6564:genNearPointerSet
 ;;	1109 rIdx = r0x1049 
-	MOVF	r0x101C,W
+	MOVF	r0x1024,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6569:genNearPointerSet
 	MOVWF	INDF
 ;; ***	genNearPointerSet  6577
@@ -1519,25 +1519,25 @@ _00109_DS_
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:726:genPlus
 ;;	1109 rIdx = r0x104B 
 	.line	49; "SSD.c"	SSD_IN_SYSTEM[ssd].DssdSymbol = ssdSymbol ;
-	MOVF	r0x101E,W
+	MOVF	r0x1026,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:735:genPlus
 	ADDLW	(_SSD_IN_SYSTEM + 0)
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:736:genPlus
 ;;	1109 rIdx = r0x104B 
-	MOVWF	r0x101E
+	MOVWF	r0x1026
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:749:genPlus
 ;;	1109 rIdx = r0x104C 
-	MOVF	r0x101F,W
+	MOVF	r0x1027,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:750:genPlus
 	BTFSC	STATUS,0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:751:genPlus
 ;;	1109 rIdx = r0x104C 
-	INCFSZ	r0x101F,W
+	INCFSZ	r0x1027,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:752:genPlus
 	ADDLW	high (_SSD_IN_SYSTEM + 0)
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:753:genPlus
 ;;	1109 rIdx = r0x104C 
-	MOVWF	r0x101F
+	MOVWF	r0x1027
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;; ***	genPlus  611
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:612:genPlus *{*
@@ -1550,12 +1550,12 @@ _00109_DS_
 ;; 	genPlusIncr  156
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:168:genPlusIncr
 ;;	1109 rIdx = r0x104B 
-	INCF	r0x101E,F
+	INCF	r0x1026,F
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:172:genPlusIncr
 	BTFSC	STATUS,2
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:173:genPlusIncr
 ;;	1109 rIdx = r0x104C 
-	INCF	r0x101F,F
+	INCF	r0x1027,F
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6686:genPointerSet *{*
 ;; ***	genPointerSet  6687
@@ -1569,20 +1569,20 @@ _00109_DS_
 ;; ***	mov2w  1381  offset=0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
 ;;	1109 rIdx = r0x104B 
-	MOVF	r0x101E,W
+	MOVF	r0x1026,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5602:setup_fsr
 	MOVWF	FSR
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5553:SetIrp *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5580:SetIrp
 	BCF	STATUS,7
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5583:SetIrp
-	BTFSC	r0x101F,0
+	BTFSC	r0x1027,0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5584:SetIrp
 	BSF	STATUS,7
 ;; ***	genNearPointerSet  6548
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6564:genNearPointerSet
 ;;	1109 rIdx = r0x104A 
-	MOVF	r0x101D,W
+	MOVF	r0x1025,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6569:genNearPointerSet
 	MOVWF	INDF
 ;; ***	genNearPointerSet  6577
