@@ -8,7 +8,7 @@ void main (void)
     int sch = 0 ;
     PB_Init(PB_RESET,PB_RELEASED) ;
     PB_Init(PB_PLUS,PB_RELEASED) ;
-    COUNTER_Init(100) ;
+    COUNTER_Init(0) ;
     SSD_Init(SSD_L,SSD_ON,SSD_0) ;
     SSD_Init(SSD_M,SSD_ON,SSD_0) ;
     SSD_Init(SSD_N,SSD_ON,SSD_0) ;

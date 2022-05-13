@@ -1,4 +1,4 @@
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE  1
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE  1
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -7,7 +7,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00001 ;--------------------------------------------------------
                       00002 ; File Created by SDCC : free open source ANSI-C Compiler
                       00003 ; Version 3.5.0 #9253 (Jun 20 2015) (MINGW32)
-                      00004 ; This file was generated Thu May 12 03:46:46 2022
+                      00004 ; This file was generated Thu May 12 04:44:42 2022
                       00005 ;--------------------------------------------------------
                       00006 ; PIC port for the 14-bit core
                       00007 ;--------------------------------------------------------
@@ -57,7 +57,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
   0000                00041         extern  _SSPCON2bits
   0000                00042         extern  _SSPSTATbits
   0000                00043         extern  _TXSTAbits
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE  2
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE  2
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -116,7 +116,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
   0000                00094         extern  _SSPADD
   0000                00095         extern  _SSPSTAT
   0000                00096         extern  _TXSTA
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE  3
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE  3
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -175,7 +175,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0000                  00147 r0x101B res     1
 0001                  00148 r0x101C res     1
 0002                  00149 r0x101D res     1
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE  4
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE  4
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -234,7 +234,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00200 ;; ***  genLabel  2763
                       00201 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
                       00202 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2340:genFunction *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE  5
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE  5
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -293,7 +293,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00253 ;;      1109 rIdx = r0x1067 
 000C   ???? ????      00254         BANKSEL r0x1000
 000E   07??           00255         ADDWF   r0x1000,W
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE  6
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE  6
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -352,7 +352,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00306 ;; ***  popGetLabel  key=7, label offset 223
                       00307         .line   167; "gpio.c"   break ;
 001E   2???           00308         GOTO    _00330_DS_
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE  7
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE  7
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -411,7 +411,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00359 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
                       00360 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2778:genGoto *{*
                       00361 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2780:genGoto
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE  8
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE  8
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -470,7 +470,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0031   00??           00412         MOVWF   _PORTE
                       00413 ;; ***  addSign  861
                       00414 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:862:addSign *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE  9
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE  9
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -529,7 +529,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00465 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
                       00466 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7358:genReceive *{*
                       00467 ;; ***  genReceive  7359
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 10
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 10
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -588,7 +588,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0045   2???           00518         GOTO    _00002_DS_
                       00519 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7092:genJumpTab
 0046   1283 1303      00520         BANKSEL PCLATH
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 11
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 11
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -647,7 +647,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0056   3C00           00571         SUBLW   0x00
                       00572 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5494:genGenericShift
 0057   1903           00573         BTFSC   STATUS,2
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 12
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 12
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -706,7 +706,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00623 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:4137:genAnd
                       00624 ;;      1109 rIdx = r0x1060 
 0067   08??           00625         MOVF    r0x1004,W
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 13
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 13
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -765,7 +765,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0077   1403           00676         BSF     STATUS,0
                       00677 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5369:genMultiAsm *{*
                       00678 ;; ***  genMultiAsm  5370
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 14
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 14
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -824,7 +824,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00729 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5495:genGenericShift
                       00730 ;; ***  popGetLabel  key=19, label offset 166
 0086   2???           00731         GOTO    _00285_DS_
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 15
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 15
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -883,7 +883,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00782 ;; ***  addSign  861
                       00783 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:862:addSign *{*
                       00784 ;; ***  mov2w  1381  offset=0
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 16
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 16
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -942,7 +942,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00835 ;; ***  genLabel  2763
                       00836 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
                       00837 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5418:genGenericShift *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 17
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 17
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1001,7 +1001,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00888 ;; ***  genCast  7121
                       00889 ;; ***  aopForSym 315
                       00890 ;;      327 sym->rname = _PORTB, size = 1
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 18
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 18
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1060,7 +1060,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00940 ;; ***  mov2w  1381  offset=0
                       00941 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
                       00942 ;;      1109 rIdx = r0x105F 
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 19
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 19
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1119,7 +1119,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 00DD                  00993 _00291_DS_
 00DD   ???? ????      00994         BANKSEL r0x1006
 00DF   08??           00995         MOVF    r0x1006,W
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 20
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 20
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1178,7 +1178,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 00ED   ???? ????      01046         BANKSEL r0x1006
 00EF   09??           01047         COMF    r0x1006,F
 00F0   ???? ????      01048         BANKSEL _PORTB
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 21
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 21
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1237,7 +1237,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01099 ;; ***  popGetLabel  key=28, label offset 166
 0105   2???           01100         GOTO    _00294_DS_
                       01101 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 22
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 22
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1296,7 +1296,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01152 ;;      1109 rIdx = r0x105E 
 0115   08??           01153         MOVF    r0x1002,W
                       01154 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5492:genGenericShift
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 23
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 23
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1355,7 +1355,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01205 ;;      694 register type nRegs=2
                       01206 ;;      line = 3955 result AOP_REG=r0x105F, size=2, left AOP_REG=r0x105F, size=2, right AOP_REG=r0x1062,
                              size=2
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 24
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 24
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1414,7 +1414,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0134   ???? ????      01257         BANKSEL r0x1008
 0136   1B??           01258         BTFSC   r0x1008,7
                       01259 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5405:loadSignToC
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 25
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 25
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1473,7 +1473,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0144   3C00           01310         SUBLW   0x00
                       01311 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5494:genGenericShift
 0145   1903           01312         BTFSC   STATUS,2
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 26
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 26
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1532,7 +1532,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01363 ;;      1109 rIdx = r0x105F 
 015A   00??           01364         MOVWF   r0x1003
 015B   00??           01365         MOVWF   r0x1004
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 27
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 27
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1591,7 +1591,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 016E   2???           01416         GOTO    _00273_DS_
                       01417 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
                       01418 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 28
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 28
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1650,7 +1650,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 017F   2???           01469         GOTO    _00304_DS_
                       01470 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
                       01471 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7120:genCast *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 29
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 29
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1709,7 +1709,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01521 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
                       01522 ;;      1109 rIdx = r0x1065 
 018C   00??           01523         MOVWF   r0x1009
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 30
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 30
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1768,7 +1768,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01574 ;; ***  genCast  7253
                       01575 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7277:genCast
                       01576 ;;      1109 rIdx = r0x1062 
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 31
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 31
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1827,7 +1827,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01627 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1631:genCpl
                       01628 ;;      1109 rIdx = r0x1062 
 01AD                  01629 _00309_DS_
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 32
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 32
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1886,7 +1886,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01680 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5502:genGenericShift
 01C4   1C03           01681         BTFSS   STATUS,0
                       01682 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5503:genGenericShift
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 33
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 33
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1945,7 +1945,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01733 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:862:addSign *{*
                       01734 ;; ***  mov2w  1381  offset=0
                       01735 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 34
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 34
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2004,7 +2004,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01786 ;; ***  genAnd  3920
                       01787 ;;      694 register type nRegs=2
                       01788 ;;      694 register type nRegs=2
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 35
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 35
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2063,7 +2063,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 01F3                  01838 _00314_DS_
 01F3   1003           01839         BCF     STATUS,0
                       01840 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5404:loadSignToC
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 36
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 36
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2122,7 +2122,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01891 ;;      1109 rIdx = r0x105E 
 0203   08??           01892         MOVF    r0x1002,W
                       01893 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5492:genGenericShift
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 37
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 37
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2181,7 +2181,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01944 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1584:genNot
 0219   3001           01945         MOVLW   0x01
                       01946 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 38
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 38
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2240,7 +2240,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01997 ;; ***  genLabel  2763
                       01998 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
                       01999 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2528:genEndFunction *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 39
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 39
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2299,7 +2299,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       02050 ;;      694 register type nRegs=1
                       02051 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3294:genCmp *{*
                       02052 ;;swapping arguments (AOP_TYPEs 1/2)
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 40
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 40
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2358,7 +2358,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0247   2???           02103         GOTO    _00252_DS_
                       02104 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7102:genJumpTab
                       02105 ;; ***  popGetLabel  key=4, label offset 149
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 41
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 41
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2417,7 +2417,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       02156 ;; ***  mov2w  1381  offset=0
                       02157 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
                       02158 ;;      1009
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 42
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 42
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2476,7 +2476,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       02209 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
                       02210 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6927:genAssign *{*
                       02211 ;; ***  genAssign  6928
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 43
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 43
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2535,7 +2535,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0269   ???? ????      02262         BANKSEL r0x100C
 026B   00??           02263         MOVWF   r0x100C
                       02264 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 44
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 44
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2594,7 +2594,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       02315 ;;      694 register type nRegs=1
                       02316 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1907:assignResultValue *{*
                       02317 ;; ***  assignResultValue  1909
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 45
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 45
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2653,7 +2653,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       02368 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
                       02369 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7071:genJumpTab *{*
                       02370 ;; ***  genJumpTab  7072
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 46
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 46
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2712,7 +2712,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       02421         .line   94; "gpio.c"    ret = GET_BIT(PORTA,pin) ;
 028D   3000           02422         MOVLW   0x00
                       02423 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 47
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 47
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2771,7 +2771,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 029E   ???? ????      02474         BANKSEL _PORTA
 02A0   08??           02475         MOVF    _PORTA,W
                       02476 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7299:genCast
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 48
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 48
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2830,7 +2830,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       02526 ;; ***  mov2w  1381  offset=0
                       02527 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
                       02528 ;;      1109 rIdx = r0x1056 
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 49
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 49
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2889,7 +2889,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       02579 ;; ***  popGetLabel  key=6, label offset 112
                       02580         .line   95; "gpio.c"    break ;
 02BF   2???           02581         GOTO    _00218_DS_
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 50
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 50
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2948,7 +2948,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       02632 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5503:genGenericShift
                       02633 ;; ***  popGetLabel  key=18, label offset 112
 02D0   2???           02634         GOTO    _00230_DS_
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 51
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 51
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -3007,7 +3007,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       02684 ;;      1109 rIdx = r0x1058 
 02DC   08??           02685         MOVF    r0x1010,W
                       02686 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 52
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 52
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -3066,7 +3066,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       02737 ;;      694 register type nRegs=1
                       02738 ;;      line = 7129 result AOP_REG=r0x1057, size=1, left -=-, size=0, right AOP_REG=r0x1059, size=2
                       02739 ;; ***  genCast  7253
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 53
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 53
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -3125,7 +3125,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       02790 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5369:genMultiAsm *{*
                       02791 ;; ***  genMultiAsm  5370
                       02792 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5387:genMultiAsm
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 54
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 54
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -3184,7 +3184,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       02842 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:4137:genAnd
                       02843 ;;      1109 rIdx = r0x105A 
 030D   3000           02844         MOVLW   0x00
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 55
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 55
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -3243,7 +3243,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       02895 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5387:genMultiAsm
                       02896 ;;      1109 rIdx = r0x1059 
 031D   0C??           02897         RRF     r0x1011,F
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 56
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 56
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -3302,7 +3302,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 032B   00??           02948         MOVWF   r0x100D
                       02949 ;; ***  addSign  861
                       02950 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:862:addSign *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 57
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 57
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -3361,7 +3361,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       03001 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
                       03002 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3919:genAnd *{*
                       03003 ;; ***  genAnd  3920
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 58
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 58
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -3420,7 +3420,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       03053 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5400:loadSignToC *{*
                       03054 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5403:loadSignToC
 034A                  03055 _00240_DS_
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 59
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 59
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -3479,7 +3479,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       03106 ;; ***  mov2w  1381  offset=1
                       03107 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1384:mov2w
 0359                  03108 _00217_DS_
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 60
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 60
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -3538,7 +3538,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       03159 ;;      1009
                       03160 ;;      1028  _PORTE   offset=0
 036A                  03161 _00243_DS_
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 61
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 61
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -3597,7 +3597,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0378   00??           03211         MOVWF   r0x1011
                       03212 ;; ***  addSign  861
                       03213 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:862:addSign *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 62
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 62
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -3656,7 +3656,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       03264 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
                       03265 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
                       03266 ;; ***  genLabel  2763
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 63
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 63
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -3715,7 +3715,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       03317         .line   67; "gpio.c"    void GPIO_SetPortState(tPORT port , unsigned char portState )
 038F   ???? ????      03318         BANKSEL r0x1013
 0391   00??           03319         MOVWF   r0x1013
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 64
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 64
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -3774,7 +3774,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 039F   07??           03370         ADDWF   r0x1013,W
                       03371 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7091:genJumpTab
 03A0   1C03           03372         BTFSS   STATUS,0
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 65
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 65
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -3833,7 +3833,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       03423 ;; ***  popGetLabel  key=7, label offset 95
                       03424         .line   73; "gpio.c"    break ;
 03B1   2???           03425         GOTO    _00202_DS_
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 66
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 66
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -3892,7 +3892,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       03476 ;;      1009
                       03477 ;;      1028  _PORTC   offset=0
 03BC   ???? ????      03478         BANKSEL _PORTC
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 67
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 67
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -3951,7 +3951,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       03529 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
                       03530 ;;      1109 rIdx = r0x1054 
 03C7                  03531 _00200_DS_
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 68
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 68
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -4010,7 +4010,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       03582 ;;      1109 rIdx = r0x104E 
                       03583         .line   46; "gpio.c"    void GPIO_SetPinState(tPORT port ,unsigned char pin, unsigned char pinSt
                             ate )
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 69
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 69
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -4069,7 +4069,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       03634 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7071:genJumpTab *{*
                       03635 ;; ***  genJumpTab  7072
                       03636 ;;      694 register type nRegs=1
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 70
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 70
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -4128,7 +4128,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 03EC   3001           03687         MOVLW   0x01
                       03688 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
                       03689 ;;      1109 rIdx = r0x104E 
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 71
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 71
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -4187,7 +4187,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       03740 ;;      694 register type nRegs=1
                       03741 ;; ***  mov2w  1381  offset=0
                       03742 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 72
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 72
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -4246,7 +4246,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0412   04??           03791         IORWF   r0x1015,W
                       03792 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:4481:genOr
                       03793 ;;      1009
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 73
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 73
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -4305,7 +4305,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       03844 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5503:genGenericShift
                       03845 ;; ***  popGetLabel  key=18, label offset 58
 0424   2???           03846         GOTO    _00176_DS_
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 74
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 74
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -4364,7 +4364,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0437   3E01           03897         ADDLW   0x01
                       03898 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5502:genGenericShift
 0438   1C03           03899         BTFSS   STATUS,0
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 75
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 75
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -4423,7 +4423,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       03948 ;; ***  addSign  861
                       03949 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:862:addSign *{*
                       03950 ;; ***  mov2w  1381  offset=0
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 76
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 76
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -4482,7 +4482,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       04001 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
                       04002 ;;      1109 rIdx = r0x1051 
 045A   00??           04003         MOVWF   r0x1018
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 77
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 77
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -4541,7 +4541,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 046B   00??           04052         MOVWF   _PORTC
                       04053 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
                       04054 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2778:genGoto *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 78
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 78
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -4600,7 +4600,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       04105 ;; ***  genCpl  1611
                       04106 ;;      694 register type nRegs=1
                       04107 ;;      694 register type nRegs=1
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 79
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 79
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -4659,7 +4659,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 048F   2???           04158         GOTO    _00186_DS_
                       04159 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
                       04160 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:4220:genOr *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 80
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 80
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -4718,7 +4718,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 049C   08??           04209         MOVF    r0x1016,W
                       04210 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5492:genGenericShift
 049D   3C00           04211         SUBLW   0x00
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 81
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 81
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -4777,7 +4777,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       04262 ;; ***  mov2w  1381  offset=0
                       04263 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
                       04264 ;;      1109 rIdx = r0x104F 
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 82
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 82
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -4836,7 +4836,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       04313 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2528:genEndFunction *{*
                       04314 ;; ***  genEndFunction  2530
 04C2                  04315 _00165_DS_
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 83
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 83
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -4895,7 +4895,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       04366 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3547:genCmpGt *{*
                       04367 ;; ***  genCmpGt  3548
                       04368 ;;      694 register type nRegs=1
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 84
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 84
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -4954,7 +4954,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       04419 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7102:genJumpTab
                       04420 ;; ***  popGetLabel  key=3, label offset 41
 04DC   2???           04421         GOTO    _00144_DS_
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 85
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 85
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -5013,7 +5013,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       04472 ;;      1109 rIdx = r0x104D 
 04E6                  04473 _00143_DS_
                       04474         .line   33; "gpio.c"    TRISB = portDirection ;
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 86
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 86
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -5072,7 +5072,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       04525 ;; ***  aopForSym 315
                       04526 ;;      327 sym->rname = _TRISD, size = 1
                       04527 ;;      line = 6937 result AOP_DIR=_TRISD, size=1, left -=-, size=0, right AOP_REG=r0x104D, size=1
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 87
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 87
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -5131,7 +5131,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0501                  04578 _00148_DS_
                       04579         .line   44; "gpio.c"    }
 0501   0008           04580         RETURN  
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 88
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 88
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -5190,7 +5190,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0506   00??           04630         MOVWF   r0x101C
                       04631 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
                       04632 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7358:genReceive *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 89
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 89
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -5249,7 +5249,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0515   1C03           04683         BTFSS   STATUS,0
 0516   2???           04684         GOTO    _00008_DS_
                       04685 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7092:genJumpTab
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 90
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 90
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -5308,7 +5308,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0527   2???           04736         GOTO    _00119_DS_
                       04737 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5369:genMultiAsm *{*
                       04738 ;; ***  genMultiAsm  5370
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 91
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 91
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -5367,7 +5367,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 053B   1903           04789         BTFSC   STATUS,2
                       04790 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5495:genGenericShift
                       04791 ;; ***  popGetLabel  key=17, label offset 4
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 92
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 92
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -5426,7 +5426,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       04840 ;; ***  genGenericShift  5421
                       04841 ;;      694 register type nRegs=1
                       04842 ;;      694 register type nRegs=1
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 93
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 93
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -5485,7 +5485,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 055F   ???? ????      04893         BANKSEL r0x101B
 0561   05??           04894         ANDWF   r0x101B,F
                       04895 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 94
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 94
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -5544,7 +5544,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       04944 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:4479:genOr
                       04945 ;;      1109 rIdx = r0x104B 
 056E                  04946 _00125_DS_
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 95
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 95
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -5603,7 +5603,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 057E                  04997 _00126_DS_
 057E   ???? ????      04998         BANKSEL r0x101B
 0580   0D??           04999         RLF     r0x101B,F
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 96
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 96
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -5662,7 +5662,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       05050 ;; ***  genMultiAsm  5370
                       05051 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5387:genMultiAsm
                       05052 ;;      1109 rIdx = r0x104B 
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 97
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 97
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -5721,7 +5721,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 05A1                  05101 _00108_DS_
                       05102         .line   18; "gpio.c"    SET_REGISTER_BIT(TRISD,pin,pinDirection) ;
 05A1   3001           05103         MOVLW   0x01
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 98
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 98
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -5780,7 +5780,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       05154 ;;      694 register type nRegs=1
                       05155 ;;      694 register type nRegs=1
                       05156 ;;      694 register type nRegs=1
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 99
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 99
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -5839,7 +5839,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       05205 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:4480:genOr
                       05206 ;;      1109 rIdx = r0x1048 
 05C7   04??           05207         IORWF   r0x101B,W
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 100
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 100
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -5898,7 +5898,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       05258 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5502:genGenericShift
 05D8   1C03           05259         BTFSS   STATUS,0
                       05260 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5503:genGenericShift
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 101
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 101
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -5957,7 +5957,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 05EB   0D??           05311         RLF     r0x101E,F
                       05312 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5501:genGenericShift
 05EC   3E01           05313         ADDLW   0x01
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 102
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 102
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -6009,7 +6009,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       05355 ;        1039+  244 =  1283 instructions ( 3054 byte)
                       05356 
                       05357         end
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 103
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 103
 
 
 SYMBOL TABLE
@@ -6068,7 +6068,7 @@ CHS1                              00000004
 CHS2                              00000005
 CIS                               00000003
 CKE                               00000006
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 104
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 104
 
 
 SYMBOL TABLE
@@ -6127,7 +6127,7 @@ INTF                              00000001
 IRP                               00000007
 NOT_A                             00000005
 NOT_ADDRESS                       00000005
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 105
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 105
 
 
 SYMBOL TABLE
@@ -6186,7 +6186,7 @@ RA5                               00000005
 RB0                               00000000
 RB1                               00000001
 RB2                               00000002
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 106
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 106
 
 
 SYMBOL TABLE
@@ -6245,7 +6245,7 @@ SSAVE                             00000000
 SSPADD                            00000093
 SSPBUF                            00000013
 SSPCON                            00000014
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 107
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 107
 
 
 SYMBOL TABLE
@@ -6304,7 +6304,7 @@ TMR2IE                            00000001
 TMR2IF                            00000001
 TMR2ON                            00000002
 TOUTPS0                           00000003
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 108
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 108
 
 
 SYMBOL TABLE
@@ -6363,7 +6363,7 @@ TXREG                             00000019
 TXSTA                             00000098
 UA                                00000001
 W                                 00000000
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 109
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 109
 
 
 SYMBOL TABLE
@@ -6422,7 +6422,7 @@ _00160_DS_                        00000417
 _00161_DS_                        00000442
 _00162_DS_                        0000046D
 _00163_DS_                        00000498
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 110
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 110
 
 
 SYMBOL TABLE
@@ -6481,7 +6481,7 @@ _00239_DS_                        00000337
 _00240_DS_                        0000034A
 _00241_DS_                        00000354
 _00242_DS_                        00000363
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 111
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 111
 
 
 SYMBOL TABLE
@@ -6540,7 +6540,7 @@ _00312_DS_                        000001D9
 _00313_DS_                        000001E0
 _00314_DS_                        000001F3
 _00315_DS_                        000001FD
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 112
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 112
 
 
 SYMBOL TABLE
@@ -6599,7 +6599,7 @@ _EECON2                           00000000
 _EEDATA                           00000000
 _EEDATH                           00000000
 _FOSC_EXTRC                       00003FFF
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 113
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 113
 
 
 SYMBOL TABLE
@@ -6658,7 +6658,7 @@ _PWRTE_ON                         00003FF7
 _RCREG                            00000000
 _RCSTA                            00000000
 _RCSTAbits                        00000000
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 114
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 114
 
 
 SYMBOL TABLE
@@ -6717,7 +6717,7 @@ __EEPROM_START                    00002100
 __VECTOR_INT                      00000004
 __VECTOR_RESET                    00000000
 r0x1000                           0000001E
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  03:46:46         PAGE 115
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\gpi   5-12-2022  04:44:42         PAGE 115
 
 
 SYMBOL TABLE

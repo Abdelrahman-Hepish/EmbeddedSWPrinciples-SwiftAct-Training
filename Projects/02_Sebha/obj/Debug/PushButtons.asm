@@ -1,7 +1,7 @@
 ;--------------------------------------------------------
 ; File Created by SDCC : free open source ANSI-C Compiler
 ; Version 3.5.0 #9253 (Jun 20 2015) (MINGW32)
-; This file was generated Thu May 12 03:46:47 2022
+; This file was generated Thu May 12 04:44:42 2022
 ;--------------------------------------------------------
 ; PIC port for the 14-bit core
 ;--------------------------------------------------------
@@ -1711,12 +1711,12 @@ _00150_DS_
 ;; ***	genNearPointerSet  6506
 ;;	694 register type nRegs=2
 ;; ***	genNearPointerSet  6521
-;; 	line = 6523 result AOP_REG=r0x1051, size=2, left -=-, size=0, right AOP_LIT=0x01, size=1
+;; 	line = 6523 result AOP_REG=r0x1051, size=2, left -=-, size=0, right AOP_LIT=0x00, size=1
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
 ;; ***	mov2w  1381  offset=0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
 ;;	1109 rIdx = r0x1051 
-	.line	111; "PushButtons.c"	ButtonsInSystem[buttonIterator].currentButtonState =  PB_PRE_RELEASED ;
+	.line	111; "PushButtons.c"	ButtonsInSystem[buttonIterator].currentButtonState =  PB_RELEASED ;
 	MOVF	r0x1013,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5602:setup_fsr
 	BANKSEL	FSR
@@ -1731,7 +1731,7 @@ _00150_DS_
 	BSF	STATUS,7
 ;; ***	genNearPointerSet  6548
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6560:genNearPointerSet
-	MOVLW	0x01
+	MOVLW	0x00
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6569:genNearPointerSet
 	BANKSEL	INDF
 	MOVWF	INDF

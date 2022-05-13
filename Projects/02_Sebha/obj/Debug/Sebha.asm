@@ -1,7 +1,7 @@
 ;--------------------------------------------------------
 ; File Created by SDCC : free open source ANSI-C Compiler
 ; Version 3.5.0 #9253 (Jun 20 2015) (MINGW32)
-; This file was generated Thu May 12 03:46:47 2022
+; This file was generated Thu May 12 04:44:42 2022
 ;--------------------------------------------------------
 ; PIC port for the 14-bit core
 ;--------------------------------------------------------
@@ -289,8 +289,8 @@ _main	;Function start
 ;; 	2135 left AOP_LIT
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-	.line	11; "Sebha.c"	COUNTER_Init(100) ;
-	MOVLW	0x64
+	.line	11; "Sebha.c"	COUNTER_Init(0) ;
+	MOVLW	0x00
 ;; 	2135 left AOP_LIT
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
 ;; ***	popRegFromIdx,1042  , rIdx=0x7f

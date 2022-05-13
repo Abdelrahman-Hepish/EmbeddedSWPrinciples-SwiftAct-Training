@@ -76,8 +76,8 @@ _main	;Function start
 ;; 	2135 left AOP_LIT
 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1361:mov2w_op
-	.line	11; "Sebha.c"	COUNTER_Init(100) ;
-	MOVLW	0x64
+	.line	11; "Sebha.c"	COUNTER_Init(0) ;
+	MOVLW	0x00
 ;; 	2135 left AOP_LIT
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
 ;; ***	popRegFromIdx,1042  , rIdx=0x7f

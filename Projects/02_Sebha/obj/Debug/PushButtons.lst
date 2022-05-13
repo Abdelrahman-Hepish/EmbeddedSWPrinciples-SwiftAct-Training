@@ -1,4 +1,4 @@
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE  1
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE  1
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -7,7 +7,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00001 ;--------------------------------------------------------
                       00002 ; File Created by SDCC : free open source ANSI-C Compiler
                       00003 ; Version 3.5.0 #9253 (Jun 20 2015) (MINGW32)
-                      00004 ; This file was generated Thu May 12 03:46:47 2022
+                      00004 ; This file was generated Thu May 12 04:44:42 2022
                       00005 ;--------------------------------------------------------
                       00006 ; PIC port for the 14-bit core
                       00007 ;--------------------------------------------------------
@@ -57,7 +57,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
   0000                00041         extern STK00
                       00042 ;--------------------------------------------------------
                       00043 ; global declarations
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE  2
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE  2
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -116,7 +116,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00094 ;entry:  _PB_GetState   ;Function start
                       00095 ; 2 exit points
                       00096 ;has an exit
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE  3
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE  3
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -175,7 +175,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00145 ;; ***  mov2w  1381  offset=0
                       00146 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
                       00147 ;;      1109 rIdx = r0x1056 
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE  4
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE  4
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -234,7 +234,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00197 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:775:genPlus
 0015   1803           00198         BTFSC   STATUS,0
                       00199 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:776:genPlus
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE  5
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE  5
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -293,7 +293,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00249 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5580:SetIrp
 0020   1383           00250         BCF     STATUS,7
                       00251 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5583:SetIrp
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE  6
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE  6
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -352,7 +352,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00302 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2340:genFunction *{*
                       00303 ;; ***  genFunction  2342 curr label offset=4previous max_key=23 
 002C                  00304 _PB_Update      ;Function start
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE  7
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE  7
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -411,7 +411,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00351 ;;      1109 rIdx = r0x104F 
 0039   ???? ????      00352         BANKSEL r0x1011
 003B   00??           00353         MOVWF   r0x1011
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE  8
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE  8
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -470,7 +470,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00403 ;;      613
                       00404 ;;      aopForRemat 392
                       00405 ;;      418: rname _ButtonsInSystem, val 0, const = 0
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE  9
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE  9
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -529,7 +529,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00454 ;;      1109 rIdx = r0x1050 
 0050   0A??           00455         INCF    r0x1012,F
                       00456 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 10
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 10
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -588,7 +588,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0064   1383           00507         BCF     STATUS,7
                       00508 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5583:SetIrp
 0065   ???? ????      00509         BANKSEL r0x1014
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 11
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 11
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -647,7 +647,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 007A   07??           00560         ADDWF   r0x1010,W
                       00561 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7091:genJumpTab
 007B   1C03           00562         BTFSS   STATUS,0
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 12
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 12
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -706,7 +706,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00612 ;;      694 register type nRegs=1
                       00613 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1907:assignResultValue *{*
                       00614 ;; ***  assignResultValue  1909
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 13
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 13
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -765,7 +765,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00665 ;; ***  genLabel  2763
                       00666 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
                       00667 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 14
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 14
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -824,7 +824,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00717 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5602:setup_fsr
 00AA   1283 1303      00718         BANKSEL FSR
 00AC   0084           00719         MOVWF   FSR
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 15
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 15
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -883,7 +883,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 00BC   2???           00769         CALL    _GPIO_GetPinState
                       00770 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2181:genCall
 00BD   ???? ????      00771         PAGESEL $
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 16
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 16
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -942,7 +942,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 00CF   2???           00822         GOTO    _00137_DS_
                       00823 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
                       00824 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 17
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 17
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1001,7 +1001,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00874 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
                       00875 ;;      1109 rIdx = r0x104F 
 00DB   08??           00876         MOVF    r0x1011,W
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 18
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 18
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1060,7 +1060,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00925 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1435:call_libraryfunc
 00EF   2???           00926         CALL    __mulchar
                       00927 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1437:call_libraryfunc
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 19
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 19
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1119,7 +1119,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00977 ;; ***  genPlus  611
                       00978 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:612:genPlus *{*
                       00979 ;;      694 register type nRegs=2
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 20
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 20
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1178,7 +1178,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0108   0084           01029         MOVWF   FSR
                       01030 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5553:SetIrp *{*
                       01031 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5580:SetIrp
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 21
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 21
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1237,7 +1237,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 011F   07??           01082         ADDWF   r0x1015,W
                       01083 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7091:genJumpTab
 0120   1C03           01084         BTFSS   STATUS,0
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 22
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 22
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1296,7 +1296,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0134   1783           01134         BSF     STATUS,7
                       01135 ;; ***  genNearPointerGet  5988
                       01136 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5995:genNearPointerGet
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 23
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 23
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1355,7 +1355,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0143   08??           01186         MOVF    r0x1012,W
                       01187 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:587:genAddLit
                       01188 ;;      1109 rIdx = r0x1054 
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 24
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 24
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1414,7 +1414,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01239 ;; ***  genNearPointerSet  6506
                       01240 ;;      694 register type nRegs=2
                       01241 ;; ***  genNearPointerSet  6521
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 25
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 25
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1473,7 +1473,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                             GE && ButtonsInSystem[buttonIterator].sample[1] == PB_PRESSED_VOLTAGE )
 0165   ???? ????      01291         BANKSEL r0x1011
 0167   08??           01292         MOVF    r0x1011,W
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 26
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 26
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1532,7 +1532,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 017A   07??           01342         ADDWF   r0x1011,W
                       01343 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:253:emitMOVWF *{*
                       01344 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:257:emitMOVWF
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 27
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 27
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1591,7 +1591,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01395 ;; ***  genIfx  6760
                       01396 ;;      694 register type nRegs=1
                       01397 ;; ***  pic14_toBoolean  1515
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 28
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 28
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1650,7 +1650,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01447 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6162:genPointerGet *{*
                       01448 ;; ***  genPointerGet  6163
                       01449 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5944:genNearPointerGet *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 29
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 29
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1709,7 +1709,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01498 ;;      genPlusIncr  180
                       01499 ;;      adding lit to something. size 2
                       01500 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:269:genAddLit *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 30
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 30
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1768,7 +1768,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 01C3   1783           01550         BSF     STATUS,7
                       01551 ;; ***  genNearPointerGet  5988
                       01552 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5995:genNearPointerGet
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 31
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 31
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1827,7 +1827,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01602 ;; ***  popGetLabel  key=26, label offset 31
                       01603         .line   107; "PushButtons.c"    break ;
 01DA   2???           01604         GOTO    _00157_DS_
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 32
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 32
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1886,7 +1886,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01654 ;;      694 register type nRegs=2
                       01655 ;;      line = 618 result AOP_REG=r0x104F, size=2, left AOP_REG=r0x104F, size=2, right AOP_LIT=0x01, siz
                             e=1
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 33
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 33
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1945,7 +1945,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01706 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
                       01707 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
                       01708 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6686:genPointerSet *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 34
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 34
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -1956,13 +1956,13 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01711 ;; ***  genNearPointerSet  6506
                       01712 ;;      694 register type nRegs=2
                       01713 ;; ***  genNearPointerSet  6521
-                      01714 ;;      line = 6523 result AOP_REG=r0x1051, size=2, left -=-, size=0, right AOP_LIT=0x01, size=1
+                      01714 ;;      line = 6523 result AOP_REG=r0x1051, size=2, left -=-, size=0, right AOP_LIT=0x00, size=1
                       01715 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
                       01716 ;; ***  mov2w  1381  offset=0
                       01717 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
                       01718 ;;      1109 rIdx = r0x1051 
-                      01719         .line   111; "PushButtons.c"    ButtonsInSystem[buttonIterator].currentButtonState =  PB_PRE_REL
-                            EASED ;
+                      01719         .line   111; "PushButtons.c"    ButtonsInSystem[buttonIterator].currentButtonState =  PB_RELEASE
+                            D ;
 0204   08??           01720         MOVF    r0x1013,W
                       01721 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5602:setup_fsr
 0205   1283 1303      01722         BANKSEL FSR
@@ -1977,7 +1977,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 020C   1783           01731         BSF     STATUS,7
                       01732 ;; ***  genNearPointerSet  6548
                       01733 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6560:genNearPointerSet
-020D   3001           01734         MOVLW   0x01
+020D   3000           01734         MOVLW   0x00
                       01735 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6569:genNearPointerSet
 020E   1283 1303      01736         BANKSEL INDF
 0210   0080           01737         MOVWF   INDF
@@ -2004,7 +2004,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                             tonIterator ++)
 0211   ???? ????      01757         BANKSEL r0x1010
 0213   0A??           01758         INCF    r0x1010,F
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 35
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 35
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2063,7 +2063,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01809 ;   r0x1019
                       01810 ;   STK01
                       01811 ;   r0x101A
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 36
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 36
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2122,7 +2122,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01862 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3242:genSkipc
 0220   1803           01863         BTFSC   STATUS,0
                       01864 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3246:genSkipc
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 37
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 37
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2181,7 +2181,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01915 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2086:genCall *{*
                       01916 ;; ***  genCall  2088
                       01917 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1801:saveRegisters *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 38
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 38
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2240,7 +2240,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       01968         .line   23; "PushButtons.c"     GPIO_InitPin(PORT_B ,1,PIN_IN) ;
 023F   3001           01969         MOVLW   0x01
                       01970 ;;      2135 left AOP_LIT
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 39
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 39
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2299,7 +2299,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 024C   3002           02021         MOVLW   0x02
                       02022 ;;      2135 left AOP_LIT
                       02023 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2143:genCall
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 40
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 40
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2358,7 +2358,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       02074 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2173:genCall
 025A   ???? ????      02075         PAGESEL _GPIO_InitPin
                       02076 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2175:genCall
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 41
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 41
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2417,7 +2417,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       02125 ;; ***  genPlus  611
                       02126 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:612:genPlus *{*
                       02127 ;;      613
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 42
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 42
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2476,7 +2476,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       02176 ;;      adding lit to something. size 2
                       02177 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:269:genAddLit *{*
                       02178 ;; ***  genAddLit  270
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 43
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 43
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2535,7 +2535,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       02229 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:6564:genNearPointerSet
                       02230 ;;      1109 rIdx = r0x1049 
 0286   08??           02231         MOVF    r0x1019,W
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 44
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 44
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2594,7 +2594,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       02282 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7093:genJumpTab
 029D                  02283 _00004_DS_
 029D   0082           02284         MOVWF   PCL
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 45
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 45
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2653,7 +2653,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 02AE   1283 1303      02335         BANKSEL INDF
 02B0   0080           02336         MOVWF   INDF
                       02337 ;; ***  genNearPointerSet  6577
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 46
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 46
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2712,7 +2712,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       02387 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1343:mov2w_op *{*
                       02388 ;; ***  mov2w  1381  offset=0
                       02389 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 47
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 47
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2771,7 +2771,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 02CB   1283 1303      02440         BANKSEL FSR
 02CD   0084           02441         MOVWF   FSR
                       02442 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5553:SetIrp *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 48
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 48
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2830,7 +2830,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 02DD   1283 1303      02492         BANKSEL FSR
 02DF   0084           02493         MOVWF   FSR
                       02494 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:5553:SetIrp *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 49
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 49
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -2868,7 +2868,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       02524 ;         452+  147 =   599 instructions ( 1492 byte)
                       02525 
                       02526         end
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 50
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 50
 
 
 SYMBOL TABLE
@@ -2927,7 +2927,7 @@ CHS1                              00000004
 CHS2                              00000005
 CIS                               00000003
 CKE                               00000006
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 51
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 51
 
 
 SYMBOL TABLE
@@ -2986,7 +2986,7 @@ INTF                              00000001
 IRP                               00000007
 NOT_A                             00000005
 NOT_ADDRESS                       00000005
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 52
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 52
 
 
 SYMBOL TABLE
@@ -3045,7 +3045,7 @@ RA5                               00000005
 RB0                               00000000
 RB1                               00000001
 RB2                               00000002
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 53
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 53
 
 
 SYMBOL TABLE
@@ -3104,7 +3104,7 @@ SSAVE                             00000000
 SSPADD                            00000093
 SSPBUF                            00000013
 SSPCON                            00000014
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 54
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 54
 
 
 SYMBOL TABLE
@@ -3163,7 +3163,7 @@ TMR2IE                            00000001
 TMR2IF                            00000001
 TMR2ON                            00000002
 TOUTPS0                           00000003
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 55
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 55
 
 
 SYMBOL TABLE
@@ -3222,7 +3222,7 @@ TXREG                             00000019
 TXSTA                             00000098
 UA                                00000001
 W                                 00000000
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 56
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 56
 
 
 SYMBOL TABLE
@@ -3281,7 +3281,7 @@ _FOSC_HS                          00003FFE
 _FOSC_LP                          00003FFC
 _FOSC_XT                          00003FFD
 _GPIO_BitToggle                   00000000
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 57
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 57
 
 
 SYMBOL TABLE
@@ -3340,7 +3340,7 @@ _code_PushButtons_0252            00000252
 _code_PushButtons_025D            0000025D
 _code_PushButtons_0267            00000267
 r0x100C                           0000000D
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  03:46:47         PAGE 58
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\Pus   5-12-2022  04:44:42         PAGE 58
 
 
 SYMBOL TABLE

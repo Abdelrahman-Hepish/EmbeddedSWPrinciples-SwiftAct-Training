@@ -1,4 +1,4 @@
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE  1
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE  1
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -7,7 +7,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00001 ;--------------------------------------------------------
                       00002 ; File Created by SDCC : free open source ANSI-C Compiler
                       00003 ; Version 3.5.0 #9253 (Jun 20 2015) (MINGW32)
-                      00004 ; This file was generated Thu May 12 03:46:46 2022
+                      00004 ; This file was generated Thu May 12 04:44:41 2022
                       00005 ;--------------------------------------------------------
                       00006 ; PIC port for the 14-bit core
                       00007 ;--------------------------------------------------------
@@ -57,7 +57,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
   0000                00041         extern STK00
                       00042 ;--------------------------------------------------------
                       00043 ; global declarations
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE  2
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE  2
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -116,7 +116,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00094 ;3 compiler assigned registers:
                       00095 ;   r0x1002
                       00096 ;   r0x1003
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE  3
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE  3
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -175,7 +175,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00146 ;;      1109 rIdx = r0x1050 
                       00147         .line   45; "counter.c" return ret ;
 000C   08??           00148         MOVF    r0x1002,W
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE  4
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE  4
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -234,7 +234,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0013   08??           00199         MOVF    STK00,W
                       00200 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1393:movwf
                       00201 ;;      1009
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE  5
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE  5
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -293,7 +293,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0016                  00252 _COUNTER_Update ;Function start
                       00253 ; 2 exit points
                       00254 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE  6
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE  6
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -352,7 +352,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00305         .line   21; "counter.c" if(resetState == PB_PRE_RELEASED )
 0025   ???? ????      00306         BANKSEL r0x1005
 0027   00??           00307         MOVWF   r0x1005
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE  7
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE  7
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -391,17 +391,17 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00338 ;; ***  genCmpEq  3620
                       00339 ;; ifx is non-null
                       00340 ;;      694 register type nRegs=1
-                      00341 ;;      line = 3631 result AOP_CRY=0x00, size=0, left AOP_REG=r0x1049, size=1, right AOP_LIT=0x01, size=
+                      00341 ;;      line = 3631 result AOP_CRY=0x00, size=0, left AOP_REG=r0x1049, size=1, right AOP_LIT=0x03, size=
                             1
                       00342 ;; ***  mov2w  1381  offset=0
                       00343 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
                       00344 ;;      1109 rIdx = r0x1049 
 002F                  00345 _00110_DS_
-                      00346         .line   23; "counter.c" if(plusState  == PB_PRE_RELEASED)
+                      00346         .line   23; "counter.c" if(plusState  == PB_PRE_PRESSED)
 002F   ???? ????      00347         BANKSEL r0x1004
 0031   08??           00348         MOVF    r0x1004,W
                       00349 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3685:genCmpEq
-0032   3A01           00350         XORLW   0x01
+0032   3A03           00350         XORLW   0x03
                       00351 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3687:genCmpEq
 0033   1D03           00352         BTFSS   STATUS,2
                       00353 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3690:genCmpEq
@@ -411,7 +411,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00357 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
                       00358 ;; ***  genPlus  611
                       00359 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:612:genPlus *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE  8
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE  8
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -470,7 +470,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00409 ;; ***  saveRegisters  1803
                       00410 ;;      694 register type nRegs=2
                       00411 ;;      2135 left AOP_LIT
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE  9
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE  9
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -529,7 +529,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00462 ;;      1028  _currentCount   offset=0
 0054   00??           00463         MOVWF   _currentCount
                       00464 ;;      2195 left AOP_DIR
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE 10
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE 10
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -588,7 +588,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0062   00??           00514         MOVWF   r0x1006
                       00515 ;; ***  genAssign  7023
                       00516 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:7035:genAssign
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE 11
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE 11
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -647,7 +647,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00567 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2181:genCall
 0070   ???? ????      00568         PAGESEL $
                       00569 ;;      694 register type nRegs=2
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE 12
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE 12
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -706,7 +706,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
 0080   3000           00620         MOVLW   0x00
                       00621 ;;      694 register type nRegs=2
                       00622 ;;      2135 left AOP_REG
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE 13
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE 13
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -765,7 +765,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00673 ;; ***  genAddLit  270
                       00674 ;; hi = ff      genAddLit  383
                       00675 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/genarith.c:395:genAddLit
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE 14
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE 14
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -824,7 +824,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00726 ;; Starting pCode block
                       00727 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2316:resultRemat *{*
                       00728 ;;; /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:2760:genLabel *{*
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE 15
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE 15
 
 
 LOC    OBJECT CODE    LINE  SOURCE TEXT
@@ -873,7 +873,7 @@ LOC    OBJECT CODE    LINE  SOURCE TEXT
                       00769 ;          91+   35 =   126 instructions (  322 byte)
                       00770 
                       00771         end
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE 16
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE 16
 
 
 SYMBOL TABLE
@@ -932,7 +932,7 @@ CHS1                              00000004
 CHS2                              00000005
 CIS                               00000003
 CKE                               00000006
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE 17
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE 17
 
 
 SYMBOL TABLE
@@ -991,7 +991,7 @@ INTF                              00000001
 IRP                               00000007
 NOT_A                             00000005
 NOT_ADDRESS                       00000005
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE 18
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE 18
 
 
 SYMBOL TABLE
@@ -1050,7 +1050,7 @@ RA5                               00000005
 RB0                               00000000
 RB1                               00000001
 RB2                               00000002
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE 19
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE 19
 
 
 SYMBOL TABLE
@@ -1109,7 +1109,7 @@ SSAVE                             00000000
 SSPADD                            00000093
 SSPBUF                            00000013
 SSPCON                            00000014
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE 20
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE 20
 
 
 SYMBOL TABLE
@@ -1168,7 +1168,7 @@ TMR2IE                            00000001
 TMR2IF                            00000001
 TMR2ON                            00000002
 TOUTPS0                           00000003
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE 21
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE 21
 
 
 SYMBOL TABLE
@@ -1227,7 +1227,7 @@ TXREG                             00000019
 TXSTA                             00000098
 UA                                00000001
 W                                 00000000
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE 22
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE 22
 
 
 SYMBOL TABLE
@@ -1286,7 +1286,7 @@ _WDTE_OFF                         00003FFB
 _WDTE_ON                          00003FFF
 _WDT_OFF                          00003FFB
 _WDT_ON                           00003FFF
-gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  03:46:46         PAGE 23
+gpasm-1.4.0 #1106 (Oct  6 2014) obj\Debug\cou   5-12-2022  04:44:41         PAGE 23
 
 
 SYMBOL TABLE

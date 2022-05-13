@@ -20,7 +20,7 @@ void COUNTER_Update(void)
         /* Update counter */
     if(resetState == PB_PRE_RELEASED )
         currentCount = 0 ;
-    if(plusState  == PB_PRE_RELEASED)
+    if(plusState  == PB_PRE_PRESSED)
     {
         currentCount = (currentCount + 1 ) % 9999 ;
     }

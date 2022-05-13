@@ -207,15 +207,15 @@ _COUNTER_Update	;Function start
 ;; ***	genCmpEq  3620
 ;; ifx is non-null
 ;;	694 register type nRegs=1
-;; 	line = 3631 result AOP_CRY=0x00, size=0, left AOP_REG=r0x1049, size=1, right AOP_LIT=0x01, size=1
+;; 	line = 3631 result AOP_CRY=0x00, size=0, left AOP_REG=r0x1049, size=1, right AOP_LIT=0x03, size=1
 ;; ***	mov2w  1381  offset=0
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:1386:mov2w
 ;;	1109 rIdx = r0x1049 
 _00110_DS_
-	.line	23; "counter.c"	if(plusState  == PB_PRE_RELEASED)
+	.line	23; "counter.c"	if(plusState  == PB_PRE_PRESSED)
 	MOVF	r0x1004,W
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3685:genCmpEq
-	XORLW	0x01
+	XORLW	0x03
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3687:genCmpEq
 	BTFSS	STATUS,2
 ;; >>> /home/sdcc-builder/build/sdcc-build/orig/sdcc/src/pic14/gen.c:3690:genCmpEq
