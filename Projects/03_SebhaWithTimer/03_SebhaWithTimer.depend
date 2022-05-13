@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1652323027 source:e:\swift act\embeddedswprinciples-swiftact-training\projects\03_sebhawithtimer\counter.c
+	"counter.h"
+	"SSD.h"
+	"PushButtons.h"
+	"utilities.h"
+
+1652247117 e:\swift act\embeddedswprinciples-swiftact-training\projects\03_sebhawithtimer\counter.h
+
+1652238103 e:\swift act\embeddedswprinciples-swiftact-training\projects\03_sebhawithtimer\ssd.h
+
+1652314664 e:\swift act\embeddedswprinciples-swiftact-training\projects\03_sebhawithtimer\pushbuttons.h
+
+1652310722 e:\swift act\embeddedswprinciples-swiftact-training\projects\03_sebhawithtimer\utilities.h
+
+1652227163 source:e:\swift act\embeddedswprinciples-swiftact-training\projects\03_sebhawithtimer\gpio.c
+	<pic16f877a.h>
+	"gpio.h"
+	"utilities.h"
+
+1652227223 e:\swift act\embeddedswprinciples-swiftact-training\projects\03_sebhawithtimer\gpio.h
+
+1652322959 source:e:\swift act\embeddedswprinciples-swiftact-training\projects\03_sebhawithtimer\pushbuttons.c
+	"PushButtons.h"
+	"gpio.h"
+	"utilities.h"
+
+1652449922 source:e:\swift act\embeddedswprinciples-swiftact-training\projects\03_sebhawithtimer\sebha.c
+	<pic16f877a.h>
+	"Timer0.h"
+	"PushButtons.h"
+	"counter.h"
+	"SSD.h"
+
+1652442156 source:e:\swift act\embeddedswprinciples-swiftact-training\projects\03_sebhawithtimer\ssd.c
+	"SSD.h"
+	"gpio.h"
+	"utilities.h"
+
+1652451986 source:e:\swift act\embeddedswprinciples-swiftact-training\projects\03_sebhawithtimer\timer0.c
+	<pic16f877a.h>
+	"Timer0.h"
+	"PushButtons.h"
+	"counter.h"
+	"SSD.h"
+
+1652436280 e:\swift act\embeddedswprinciples-swiftact-training\projects\03_sebhawithtimer\timer0.h
+
+1652318769 source:e:\swift act\embeddedswprinciples-swiftact-training\projects\03_sebhawithtimer\utilities.c
+	"utilities.h"
+
