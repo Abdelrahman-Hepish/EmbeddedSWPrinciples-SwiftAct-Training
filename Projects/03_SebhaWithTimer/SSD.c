@@ -50,7 +50,6 @@ void SSD_Init(tSSD ssd,tSSD_State ssdState,tSSD_Symbol ssdSymbol)
 }
 void SSD_Update(void)
 {
-    int dumm1 , dumm2 ;
  static tSSD ssdIterator = SSD_L ;
      TurnAllOff() ;
      if(SSD_IN_SYSTEM[ssdIterator].DssdState == SSD_ON)
